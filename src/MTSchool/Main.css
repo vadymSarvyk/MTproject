@@ -1,0 +1,25 @@
+button:hover {opacity:0.7;}
+.btn:hover {opacity:0.7;}
+.links {
+    text-decoration: none;
+    color:#2a1301 ;
+}
+.links:hover{
+    color: #6e3c17;
+    /*color: #2c015d;*/
+}
+a:hover{
+    opacity:0.5;
+}
+.skill{transition: 1s;}
+.skill:hover {transform: scale(1.1,1.1);
+    box-shadow: 5px 6px 10px 0 rgba(117,115,117,1)}
+/*main{*/
+/*    color: yellow;*/
+/*}*/
+/*color: #63379d; }*/
+/*#473F54*/
+/*.{ font-family: Roboto}*/
+/*}*/
+
+/*boxShadow: "5px 6px 10px 0px rgba(117,115,117,1)"*/
