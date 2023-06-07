@@ -34,7 +34,7 @@ export function MTForm(){
         <div className="row  align-items-center p-5  bg-opacity-75 " style={{color:"#2a1301",backgroundColor:"rgba(246,238,232,0.63)",backgroundImage:"url(./images/BG_grey3.png)", backgroundRepeat:"repeat", backgroundSize:"35%",}}>
             <div className="col-sm-8 col-md-5 bg-light mx-auto mt-5 rounded-5 " style={{border:"double 0px black", padding:"30px", boxShadow: "10px 6px 33px 0px rgba(117,115,117,1)"}}>
                 <h2 className="card-title mb-5 text-center">Напишіть нам і ми Вам зателефонуємо!</h2>
-                <form onSubmit={handleSubmit(onSubmit)} className="form-group">
+                <form onSubmit={handleSubmit(onSubmit)} className="form-group text-center">
                     <div style={{margin:"5px", color:"red"}}>
                         {errors?.name&&<p>{errors?.name?.message||"Error"}</p>}
                     </div>
@@ -64,7 +64,7 @@ export function MTForm(){
                         {errors?.phone&&<p>{errors?.phone?.message||"Введіть коректний номер!"}</p>}
                     </div>
                     <div className="input-group mb-3 text-center">
-                        <input type="phone" className="form-control" placeholder="Номер телефону в форматі: +380 00 000 0000"
+                        <input type="phone" className="form-control" placeholder="Номер телефону"
                                ref={phone}
                                // onChange={(e)=>setPhone(e.target.value)} value={phone}
                                {...register('phone',{
@@ -96,7 +96,7 @@ export function MTForm(){
                                   required:"Це поле обовязкове до заповнення!"
                               })}
                     ></textarea>
-                    <button type="submit"  value="Відправити" className="btn btn-outline-dark btn text-white rounded-5 fw-bold" style={{border:"double 0px white", paddingLeft: "40px", paddingRight: "40px", marginLeft: "35%", marginTop:"20px",backgroundColor:"#2a1301"}}>Відправити</button>
+                    <button type="submit"  value="Відправити" className="btn btn-outline-dark btn text-white rounded-5 fw-bold mx-auto" style={{border:"double 0px white", paddingLeft: "40px", paddingRight: "40px", marginLeft: "", marginTop:"20px",backgroundColor:"#2a1301"}}>Відправити</button>
                 </form>
             </div>
         </div>
