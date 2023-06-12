@@ -2,7 +2,7 @@ import React from "react";
 import {useForm} from "react-hook-form";
 import {useState} from "react";
 import axios from "axios";
-
+import './Main.css';
 export function MTForm(){
     let name=React.createRef();
     let mail=React.createRef();

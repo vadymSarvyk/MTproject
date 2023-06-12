@@ -56,7 +56,7 @@ function Main(){
             <Button href="/form" className="btn btn-dark  ms-md-5  mt-3 mb-5 p-2 rounded-5 fw-bold mx-sm-auto" style={{marginLeft:"35px", width:"340px", backgroundColor:"#2a1301", border:"double 7px white"} }>ПРИЄДНАТИСЯ ДО НАС</Button>
         </div>
 
-        <div className="pt-5 ms-5 flex  text-end d-none d-sm-block"  style={{width:"40%", height:"100%", borderTopRightRadius:"",borderBottomLeftRadius:""}}>
+        <div className="pt-md-5 ms-5 flex  text-end d-none d-sm-block"  style={{width:"40%", height:"100%", borderTopRightRadius:"",borderBottomLeftRadius:""}}>
             <div className="d-flex justify-content-center pt-3 mt-3" style={{marginLeft:""}}>
 
                 <div className="flex-item border border-dark border-5 rounded-5"
@@ -246,8 +246,10 @@ function Teachers(){
             <h4 className=" text-center mt-5" >Вим сусципиантур дефинитионем ех, аугуе пхилосопхиа пер ан.</h4>
 
             <Container fluid className="p-3">
-                <Row xs={1} sm={2} md={4}  className=" justify-content-around">
-                    <Col md="2" xs="8" sm="5">
+                <Row xs={1} sm={2} md={4} lg={4}  className=" justify-content-around align-items-center">
+                    <Col
+                        // md="auto" xs="8" sm="5"
+                    >
             <div className="skill text-center rounded-5 p-3 bg-light bg-opacity" style={{border:"double 0px black",width:"",maxWidth:"", height:"auto",marginTop:"80px", backgroundColor:"",boxShadow: ""}}>
                 <img src={process.env.PUBLIC_URL+"./images/dog.jpg"} className="img-fluid rounded-circle mt-3" alt="..." style={{width:"150px", height:"150px"}}/>
                 <h5 className=" text-center mt-3" >Ім'я Прізвище</h5>
@@ -284,7 +286,9 @@ function Teachers(){
             </div>
                     </Col>
 
-<Col md="2" xs="8" sm="5">
+<Col
+    // md="auto" xs="8" sm="5"
+>
     <div className=" skill  text-center rounded-5 p-3 bg-light bg-opacity" style={{border:"double 0px black", width:"",maxWidth:"", height:"auto",marginTop:"80px", backgroundColor:"",boxShadow: ""}}>
         <img src={process.env.PUBLIC_URL+"./images/girl.jpg"} className="img-fluid rounded-circle mt-3" alt="..." style={{width:"150px", height:"150px"}}/>
         <h5 className=" text-center mt-3" >Ім'я Прізвище</h5>
@@ -319,7 +323,9 @@ function Teachers(){
     </div>
 </Col>
 
-<Col md="2" xs="8" sm="5">
+<Col
+    // md="auto" xs="8" sm="5"
+>
     <div className="skill rounded-5 p-3 text-center bg-light bg-opacity" style={{border:"double 0px black", width:"", maxWidth:"", height:"auto",marginTop:"80px", backgroundColor:"",boxShadow: ""}}>
         <img src={process.env.PUBLIC_URL+"./images/boy.jpg"} className="img-fluid rounded-circle mt-3" alt="..." style={{width:"150px", height:"150px"}}/>
         <h5 className=" text-center mt-3" >Ім'я Прізвище</h5>
@@ -355,7 +361,9 @@ function Teachers(){
     </div>
 </Col>
 
-<Col md="2" xs="8" sm="5">
+<Col
+    // md="auto" xs="8" sm="5"
+>
     <div className="skill  text-center rounded-5 p-3 bg-light bg-opacity" style={{border:"double 0px black", width:"",maxWidth:"", height:"auto",marginTop:"80px", backgroundColor:"",boxShadow: ""}}>
         <img src={process.env.PUBLIC_URL+"./images/cat.jpg"} className="img-fluid rounded-circle mt-3" alt="..." style={{width:"150px", height:"150px"}}/>
         <h5 className=" text-center mt-3" >Ім'я Прізвище</h5>
@@ -492,216 +500,7 @@ function Contacts(){
     <div id="contact" className="text-center" style={{color:"#2a1301", backgroundColor:"#f8eade",paddingBottom:"", paddingTop:"20px",backgroundImage:"url()", backgroundRepeat:"repeat", backgroundSize:"35%",}}>
         <div className="row align-items-center justify-content-center" style={{paddingBottom:""}}>
             <h4 className="card-title display-4 text-center border-bottom border-dark border-4 p-3 w-75"><b>Ми завжди на зв'язку для Вас</b></h4>
-            <br></br>
-        {/*    <div className="col-sm-8 col-md-5 mx-auto text-center mt-md-5 container-fluid p-5 p-md-0" style={{width:"", minWidth:""}}>*/}
 
-        {/*            <p className=" fs-5">Наші адміністратори з радістю допоможуть вирішити будь-яке питання.</p>*/}
-        {/*        <img src={process.env.PUBLIC_URL+"./images/callCenter.jpg"} className="d-block w-100 mt-2 rounded-5" style={{boxShadow: ""}} alt="..."/>*/}
-        {/*        <br></br>*/}
-
-        {/*        <Table className="d-none d-md-table  rounded table-borderless table-responsive" style={{border:"double 0px black", boxShadow: ""}}>*/}
-        {/*            <thead>*/}
-        {/*            <tr>*/}
-        {/*                <th> <h5 className="card-title fw-semibold text-center">*/}
-        {/*                    <svg style={{marginRight:"5px"}} xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"*/}
-        {/*                         className="bi bi-phone" viewBox="0 0 16 16">*/}
-        {/*                        <path*/}
-        {/*                            d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>*/}
-        {/*                        <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>*/}
-        {/*                    </svg>*/}
-        {/*                    Телефон:*/}
-        {/*                </h5></th>*/}
-        {/*                <th> <h5 className="card-title fw-semibold text-center">*/}
-        {/*                    <svg style={{marginRight:"10px"}} xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"*/}
-        {/*                         className="bi bi-envelope" viewBox="0 0 16 16">*/}
-        {/*                        <path*/}
-        {/*                            d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>*/}
-        {/*                    </svg>*/}
-        {/*                    E-mail*/}
-        {/*                </h5></th>*/}
-        {/*                <th><h5 className="card-title fw-semibold text-center">*/}
-        {/*                    <svg style={{marginRight:"10px"}} xmlns="http://www.w3.org/2000/svg" width="24" height="24"*/}
-        {/*                         fill="currentColor" className="bi bi-telegram" viewBox="0 0 16 16">*/}
-        {/*                        <path*/}
-        {/*                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"/>*/}
-        {/*                    </svg>*/}
-        {/*                    Telegram:*/}
-        {/*                </h5></th>*/}
-        {/*            </tr>*/}
-        {/*            </thead>*/}
-        {/*            <tbody>*/}
-        {/*            <tr>*/}
-        {/*                <td><small><b>+38(097)-111-78-95</b></small></td>*/}
-        {/*                <td><b>mothertongueschool@gmail.com</b></td>*/}
-        {/*                <td><b>@MotherTongueSchool</b></td>*/}
-        {/*            </tr>*/}
-        {/*            </tbody>*/}
-        {/*        </Table>*/}
-        {/*        <div className="d-md-none text-center">*/}
-        {/*            <h5 className="fw-semibold text-center">*/}
-        {/*                <svg style={{marginRight:"5px"}} xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"*/}
-        {/*                     className="bi bi-phone" viewBox="0 0 16 16">*/}
-        {/*                    <path*/}
-        {/*                        d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>*/}
-        {/*                    <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>*/}
-        {/*                </svg>*/}
-        {/*                Телефон:*/}
-        {/*            </h5>*/}
-        {/*            <p>+38(097)-111-78-95</p>*/}
-        {/*            <h5 className="fw-semibold text-center">*/}
-        {/*                <svg style={{marginRight:"10px"}} xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"*/}
-        {/*                     className="bi bi-envelope" viewBox="0 0 16 16">*/}
-        {/*                    <path*/}
-        {/*                        d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>*/}
-        {/*                </svg>*/}
-        {/*                E-mail*/}
-        {/*            </h5>*/}
-        {/*            <p className="mx-auto"><small>mothertongueschool@gmail.com</small></p>*/}
-        {/*            <h5 className="fw-semibold text-center">*/}
-        {/*                <svg style={{marginRight:"10px"}} xmlns="http://www.w3.org/2000/svg" width="24" height="24"*/}
-        {/*                     fill="currentColor" className="bi bi-telegram" viewBox="0 0 16 16">*/}
-        {/*                    <path*/}
-        {/*                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"/>*/}
-        {/*                </svg>*/}
-        {/*                Telegram:*/}
-        {/*            </h5>*/}
-        {/*            <p><small>@MotherTongueSchool</small></p>*/}
-        {/*        </div>*/}
-        {/*    </div>*/}
-
-        {/*    <div className=" col-sm-6 col-md-4 mx-auto mt-md-5  bg-light  rounded-5 bg-opacity-75" style={{marginLeft:"",border:"double 0px black",padding:"30px", boxShadow: ""}}>*/}
-        {/*        <h2 className="card-title mb-5 text-center">Напишіть нам і ми Вам зателефонуємо!</h2>*/}
-        {/*        <form onSubmit={handleSubmit(onSubmit)} >*/}
-        {/*            <div style={{margin:"5px", color:"red"}}>*/}
-        {/*                {errors?.name&&<p>{errors?.name?.message||"Error"}</p>}*/}
-        {/*            </div>*/}
-        {/*            <div className="input-group mb-3">*/}
-        {/*                <input id="nam" type="text" className="form-control" placeholder="Як до Вас звертатися"*/}
-        {/*                       ref={name}*/}
-        {/*                       {...register('name',{required:"Це поле обовязкове до заповнення!",*/}
-        {/*                           pattern: /^[a-zA-Zа-яА-ЯґҐєЄіІїЇ' ]+$/,*/}
-        {/*                           minLength:{*/}
-        {/*                               value:2,*/}
-        {/*                               message:"Введіть мінімум 2 символи!"*/}
-        {/*                           }})}/>*/}
-        {/*            </div>*/}
-
-        {/*            <div style={{margin:"5px", color:"red"}}>*/}
-        {/*                {errors?.mail&&<p>{errors?.mail?.message||"Введіть коректний e-mail!"}</p>}*/}
-        {/*            </div>*/}
-        {/*            <div className="input-group mb-3">*/}
-        {/*                <input id="mail" type="email" className="form-control" placeholder="Ваш e-mail"*/}
-        {/*                       ref={mail}*/}
-        {/*                       {...register('mail',{required:"Це поле обовязкове до заповнення!",*/}
-        {/*                           })}/>*/}
-        {/*            </div>*/}
-        {/*            <div style={{margin:"5px", color:"red"}}>*/}
-        {/*                {errors?.phone&&<p>{errors?.phone?.message||"Введіть коректний номер!"}</p>}*/}
-        {/*            </div>*/}
-        {/*            <div className="input-group mb-3 text-center">*/}
-        {/*                <input type="phone" className="form-control" placeholder="Номер телефону:"*/}
-        {/*                       ref={phone}*/}
-        {/*                       {...register('phone',{*/}
-        {/*                           minLength:{*/}
-        {/*                               value:10,*/}
-        {/*                               message:"Введіть мінімум 10 символів!"},*/}
-        {/*                           pattern: {*/}
-        {/*                               message:"Введіть коректний номер!",*/}
-        {/*                               value: /\d+/},*/}
-        {/*                           onChange: (e) => {*/}
-        {/*                               e.target.value = e.target.value.replace(/(\d{2})\-?(\d{3})\-?(\d{3})\-?(\d{2})\-?(\d{2})/, "$1-$2-$3-$4-$5");*/}
-        {/*                           },*/}
-        {/*                           required:"Це поле обовязкове до заповнення!"*/}
-        {/*                       })}*/}
-        {/*                       onInput={(e) => {*/}
-        {/*                           e.target.value = e.target.value.replace(/[^\d]/g, "");*/}
-        {/*                       }}*/}
-        {/*                />*/}
-        {/*            </div>*/}
-        {/*            <div style={{margin:"5px", color:"red"}}>*/}
-        {/*                {errors?.text&&<p>{errors?.text?.message||"Error"}</p>}*/}
-        {/*            </div>*/}
-        {/*            <textarea className="form-control mb-3" id="exampleFormControlTextarea1" placeholder="Коротко опишіть Ваше питання:"*/}
-        {/*                      rows="5" ref={text}*/}
-        {/*                      {...register('text',{*/}
-        {/*                          required:"Це поле обовязкове до заповнення!"*/}
-        {/*                      })}*/}
-        {/*            ></textarea>*/}
-        {/*            <input type="submit" value="ВІДПРАВИТИ" className="btn btn-outline-dark btn text-white rounded-5 fw-bold" style={{border:"double 0px white",paddingLeft: "40px", paddingRight: "40px", marginLeft: "", marginTop:"20px",backgroundColor:"#2a1301"}}/>*/}
-        {/*        </form>*/}
-        {/*    </div>*/}
-        {/*</div>*/}
-            {/*<br></br>*/}
-            {/*<div className="overflow-scroll">*/}
-            {/*    <Table className="d-none d-md-table  rounded table-borderless table-responsive " style={{border:"double 0px black", boxShadow: ""}}>*/}
-            {/*        <thead>*/}
-            {/*        <tr>*/}
-            {/*            <th> <h5 className="card-title fw-semibold text-center">*/}
-            {/*                <svg style={{marginRight:"5px"}} xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"*/}
-            {/*                     className="bi bi-phone" viewBox="0 0 16 16">*/}
-            {/*                    <path*/}
-            {/*                        d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>*/}
-            {/*                    <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>*/}
-            {/*                </svg>*/}
-            {/*                Телефон:*/}
-            {/*            </h5></th>*/}
-            {/*            <th> <h5 className="card-title fw-semibold text-center">*/}
-            {/*                <svg style={{marginRight:"10px"}} xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"*/}
-            {/*                     className="bi bi-envelope" viewBox="0 0 16 16">*/}
-            {/*                    <path*/}
-            {/*                        d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>*/}
-            {/*                </svg>*/}
-            {/*                E-mail*/}
-            {/*            </h5></th>*/}
-            {/*            <th><h5 className="card-title fw-semibold text-center">*/}
-            {/*                <svg style={{marginRight:"10px"}} xmlns="http://www.w3.org/2000/svg" width="24" height="24"*/}
-            {/*                     fill="currentColor" className="bi bi-telegram" viewBox="0 0 16 16">*/}
-            {/*                    <path*/}
-            {/*                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"/>*/}
-            {/*                </svg>*/}
-            {/*                Telegram:*/}
-            {/*            </h5></th>*/}
-            {/*        </tr>*/}
-            {/*        </thead>*/}
-            {/*        <tbody>*/}
-            {/*        <tr>*/}
-            {/*            <td><small><b>+38(097)-111-78-95</b></small></td>*/}
-            {/*            <td><b>mothertongueschool@gmail.com</b></td>*/}
-            {/*            <td><b>@MotherTongueSchool</b></td>*/}
-            {/*        </tr>*/}
-            {/*        </tbody>*/}
-            {/*    </Table>*/}
-            {/*    <div className="d-md-none text-center">*/}
-            {/*        <h5 className="fw-semibold text-center">*/}
-            {/*            <svg style={{marginRight:"5px"}} xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"*/}
-            {/*                 className="bi bi-phone" viewBox="0 0 16 16">*/}
-            {/*                <path*/}
-            {/*                    d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>*/}
-            {/*                <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>*/}
-            {/*            </svg>*/}
-            {/*            Телефон:*/}
-            {/*        </h5>*/}
-            {/*        <p>+38(097)-111-78-95</p>*/}
-            {/*        <h5 className="fw-semibold text-center">*/}
-            {/*            <svg style={{marginRight:"10px"}} xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"*/}
-            {/*                 className="bi bi-envelope" viewBox="0 0 16 16">*/}
-            {/*                <path*/}
-            {/*                    d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>*/}
-            {/*            </svg>*/}
-            {/*            E-mail*/}
-            {/*        </h5>*/}
-            {/*        <p className="mx-auto"><small>mothertongueschool@gmail.com</small></p>*/}
-            {/*        <h5 className="fw-semibold text-center">*/}
-            {/*            <svg style={{marginRight:"10px"}} xmlns="http://www.w3.org/2000/svg" width="24" height="24"*/}
-            {/*                 fill="currentColor" className="bi bi-telegram" viewBox="0 0 16 16">*/}
-            {/*                <path*/}
-            {/*                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"/>*/}
-            {/*            </svg>*/}
-            {/*            Telegram:*/}
-            {/*        </h5>*/}
-            {/*        <p><small>@MotherTongueSchool</small></p>*/}
-            {/*    </div>*/}
-            {/*</div>*/}
             <Container fluid className="p-5">
             <Row xs={1} md={2}  className="g-5 ">
                 <Col>
@@ -846,25 +645,16 @@ function Contacts(){
             </div>
         </div>
 
-
-
-
-
-
-
         <h6 className="border-top bg-light text-center mx-auto fs-4 mb-0 pt-3 "><b>Наші партнери:</b></h6>
             <Container fluid className="p-4 bg-light" style={{minWidth:""}}>
-                <Row xs={1} md={3}  className="g-0 justify-content-center align-items-center pb-3">
-                    <Col md="3">
+                <Row xs={1} md={3}  className="g-0 justify-content-md-around align-items-center pb-3">
+                    <Col md="auto">
                     <img src={process.env.PUBLIC_URL+"./images/partners/culture 1.png"} className=" " style={{width: "170px"}} alt="..."/>
-                {/*</div>*/}
                     </Col>
-                    <Col md="3">
-                        {/*<div className="col-md-3 col-sm-12 text-center" style={{padding:"", marginRight: ""}}>*/}
+                    <Col md="auto">
                             <img src={process.env.PUBLIC_URL+"./images/partners/blue palace.png"} className="  " style={{width: "200px"}} alt="..."/>
-                        {/*</div>      */}
                     </Col>
-              <Col md="3">
+              <Col md="auto">
                       <img src={process.env.PUBLIC_URL+"./images/partners/dia 1.png"} className=  "" style={{width: "350px"}} alt="..."/>
               </Col>
                 </Row>

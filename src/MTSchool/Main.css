@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Oswald:wght@200;300;400&family=Roboto:wght@300;400&display=swap');
+
+div {
+    /*font-family: 'Comfortaa', cursive;*/
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px ;
+}
 button:hover {opacity:0.7;}
 .btn:hover {opacity:0.7;}
 .links {
@@ -14,12 +21,7 @@ a:hover{
 .skill{transition: 1s;}
 .skill:hover {transform: scale(1.1,1.1);
     box-shadow: 5px 6px 10px 0 rgba(117,115,117,1)}
-/*main{*/
-/*    color: yellow;*/
-/*}*/
-/*color: #63379d; }*/
-/*#473F54*/
-/*.{ font-family: Roboto}*/
-/*}*/
 
-/*boxShadow: "5px 6px 10px 0px rgba(117,115,117,1)"*/
+/*.display-4{*/
+/*font-family: 'Rubik Mono One', sans-serif;*/
+/*}*/
