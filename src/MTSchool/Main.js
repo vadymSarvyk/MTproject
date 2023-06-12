@@ -52,7 +52,7 @@ function Main(){
                 <img style={{marginLeft:"auto"}} src={process.env.PUBLIC_URL+"./images/MTlogo_bg.png"} width="400" height="auto" className="d-inline-block mx-sm-auto" alt="logo"/>
             </div>
 
-            <h2 className="display-8 mb-5 border-top border-dark border-4 pt-3  pb-md-3 ms-md-5 text-md-start text-center " style={{width:"fit-content"}}>Mother Tongue School - watch and learn!</h2>
+            <h2 className="display-8 mb-5 border-top border-dark border-3 pt-3  pb-md-3 ms-md-5 text-md-start text-center " style={{width:"fit-content"}}>Mother Tongue School - watch and learn!</h2>
             <Button href="/form" className="btn btn-dark  ms-md-5  mt-3 mb-5 p-2 rounded-5 fw-bold mx-sm-auto" style={{marginLeft:"35px", width:"340px", backgroundColor:"#2a1301", border:"double 7px white"} }>ПРИЄДНАТИСЯ ДО НАС</Button>
         </div>
 
@@ -98,33 +98,33 @@ function Main(){
 }
 function Programs(){
     return(
-    <div id="prog" className="row justify-content-around align-items-center pt-0 " style={{paddingBottom: "100px",color:"#2a1301", backgroundColor:"#faf0eb",backgroundImage:"url()", backgroundRepeat:"repeat", backgroundSize:"35%", }}>
-        <h4 className="display-4 text-center border-bottom border-dark border-4 p-3 w-75" style={{marginTop: "50px"}} ><b>Наші найпопулярніші програми</b></h4>
+    <div id="prog" className="row justify-content-around align-items-center pt-0 pb-5 p-3" style={{paddingBottom: "100px",color:"#2a1301", backgroundColor:"#faf0eb",backgroundImage:"url()", backgroundRepeat:"repeat", backgroundSize:"35%", }}>
+        <h4 className="display-4 text-center border-bottom border-dark border-3 p-3 w-75" style={{marginTop: "50px"}} ><b>Наші найпопулярніші програми</b></h4>
         <h4 className=" text-center mt-5" >Лорем ипсум долор сит амет, сеа те долорес платонем.</h4>
 
         <div className="skill col-md-2 col-sm-8 rounded-5 text-start bg-light bg-opacity"
-             style={{border:"double 0px black", width:"40vh", minWidth:"300px", padding:"20px", boxShadow: "",color:"#2a1301",marginTop:"80px", backgroundColor:""}}>
+             style={{border:"double 0px black", width:"", minWidth:"250px", padding:"20px", boxShadow: "",color:"#2a1301",marginTop:"80px", backgroundColor:""}}>
             <h4 className="" style={{marginBottom:"30px"}}><b>Для дітей</b></h4>
             <p className="text-secondary"><small>Сеа ид принципес вулпутате пхилосопхиа, цу при дицант долорем инструцтиор. Ид персиус яуаеяуе хас, вис еверти патриояуе глориатур но. Нам ерат цонсулату.</small></p>
             <p><Link to="/kids" className="links" ><b>Дізнатися більше &rarr;</b></Link></p>
         </div>
 
         <div className="skill col-md-2 col-sm-8 rounded-5 text-start bg-light bg-opacity"
-             style={{border:"double 0px black", width:"40vh",minWidth:"300px", padding:"20px", boxShadow: "",color:"#2a1301",marginTop:"80px", backgroundColor:""}}>
+             style={{border:"double 0px black", width:"",minWidth:"250px", padding:"20px", boxShadow: "",color:"#2a1301",marginTop:"80px", backgroundColor:""}}>
             <h4 className="" style={{marginBottom:"30px"}}><b>Для дорослих</b></h4>
             <p className="text-secondary"><small>Сеа ид принципес вулпутате пхилосопхиа, цу при дицант долорем инструцтиор. Ид персиус яуаеяуе хас, вис еверти патриояуе глориатур но. Нам ерат цонсулату.!</small></p>
             <p><Link to="/adults" className="links" ><b>Дізнатися більше &rarr;</b></Link></p>
         </div>
 
         <div className="skill col-md-2 col-sm-8 rounded-5 text-start bg-light bg-opacity"
-             style={{border:"double 0px black", width:"40vh", minWidth:"300px", padding:"20px", boxShadow: "",color:"#2a1301",marginTop:"80px", backgroundColor:""}}>
+             style={{border:"double 0px black", width:"", minWidth:"250px", padding:"20px", boxShadow: "",color:"#2a1301",marginTop:"80px", backgroundColor:""}}>
             <h4 className="" style={{marginBottom:"30px"}}><b>Для бізнесу</b></h4>
             <p className="text-secondary"><small>Сеа ид принципес вулпутате пхилосопхиа, цу при дицант долорем инструцтиор. Ид персиус яуаеяуе хас, вис еверти патриояуе глориатур но. Нам ерат цонсулату.!</small></p>
             <p><Link to="/business" className="links" ><b>Дізнатися більше &rarr;</b></Link></p>
         </div>
 
         <div className="skill col-md-2 col-sm-8 rounded-5 text-start bg-light bg-opacity"
-             style={{border:"double 0px black", width:"40vh", minWidth:"300px", padding:"20px", boxShadow: "",color:"#2a1301",marginTop:"80px", backgroundColor:""}}>
+             style={{border:"double 0px black", width:"", minWidth:"250px", padding:"20px", boxShadow: "",color:"#2a1301",marginTop:"80px", backgroundColor:""}}>
             <h4 className="" style={{marginBottom:"30px"}} ><b>Підготовка до НМТ</b></h4>
             <p className="text-secondary"><small>Сеа ид принципес вулпутате пхилосопхиа, цу при дицант долорем инструцтиор. Ид персиус яуаеяуе хас, вис еверти патриояуе глориатур но. Нам ерат цонсулату!</small></p>
             <p><Link to="/nmt" className="links" ><b>Дізнатися більше &rarr;</b></Link></p>
@@ -139,72 +139,30 @@ function AboutUs(){
             <div className="row g-0">
                 <div className="col-md-8 ">
                     <div className="card-body pt-3  ">
-                        <h4 className="display-4 border-bottom border-dark border-4 p-3 mb-5 w-75 "><b>Про нас</b></h4>
+                        <h4 className="display-4 border-bottom border-dark border-3 p-3 mb-5 w-75 "><b>Про нас</b></h4>
                         <p className="card-text  p-3 container-fluid pe-md-5 fs-6 rounded-5 mb-5" style={{border:"double 0px black",boxShadow: ""}}>Ліс ще дрімає в передранішній тиші… Непорушне стоять дерева, загорнені в сутінь, рясно вкриті краплистою росою. Тихо навкруги, мертво… Лиш де-не-де прокинеться пташка, непевним голосом обізветься зі свого затишку. Ліс ще дрімає… а з синім небом вже щось діється: воно то зблідне, наче від жаху, то спахне сяйвом, немов од радощів. Небо міниться, небо грає усякими барвами, блідим сяйвом торкає вершечки чорного лісу… Стрепенувся врешті ліс і собі заграв… Зашепотіли збуджені листочки, оповідаючи сни свої, заметушилась у травиці комашня, розітнулося в гущині голосне щебетання й полинуло високо — туди, де небо міниться, де небо грає всякими барвами…</p>
 
                         <h5 className="display-6 mb-3"><b>Як проходять наші заняття</b></h5>
                         <Table className="table text-start table-borderless mt-3  " style={{width:"95%",border:"double 0px black", boxShadow: ""}}>
                             <tbody>
                             <tr>
-                                <td className="text-start fs-6 p-2 " style={{color:"#2a1301"}}><b>&#x1F5F9;</b> У групі 8 чи 10 студентів</td>
-                                <td className="text-start fs-6  " style={{color:"#2a1301",paddingLeft:"30px", paddingRight:"5px"}}><b>&#x1F5F9;</b> Лише англійською</td>
+                                <td className="text-start fs-6 p-2 " style={{color:"#2a1301"}}><img src={process.env.PUBLIC_URL+"./images/check.png"} alt="check" style={{width:"25px",height:"25px"}} className="d-inline-block "/> У групі 8 чи 10 студентів</td>
+                                <td className="text-start fs-6  " style={{color:"#2a1301",paddingLeft:"30px", paddingRight:"5px"}}><img src={process.env.PUBLIC_URL+"./images/check.png"} alt="check" style={{width:"25px",height:"25px"}} className="d-inline-block "/> Лише англійською</td>
                             </tr>
                             <tr>
-                                <td className="text-start fs-6  p-2" style={{color:"#2a1301"}}><b>&#x1F5F9;</b> Заняття 90, 135 чи 180 хв</td>
-                                <td className="text-start fs-6  " style={{color:"#2a1301",paddingLeft:"30px",paddingRight:"5px"}}><b>&#x1F5F9;</b> Графік: 2–3 рази на тиждень</td>
+                                <td className="text-start fs-6  p-2" style={{color:"#2a1301"}}><img src={process.env.PUBLIC_URL+"./images/check.png"} alt="check" style={{width:"25px",height:"25px"}} className="d-inline-block "/> Заняття 90, 135 чи 180 хв</td>
+                                <td className="text-start fs-6  " style={{color:"#2a1301",paddingLeft:"30px",paddingRight:"5px"}}><img src={process.env.PUBLIC_URL+"./images/check.png"} alt="check" style={{width:"25px",height:"25px"}} className="d-inline-block "/> Графік: 2–3 рази на тиждень</td>
                             </tr>
                             <tr>
-                                <td className="text-start fs-6  p-2" style={{color:"#2a1301"}}><b>&#x1F5F9;</b> Українські викладачі та носії мови</td>
-                                <td className="text-start fs-6  " style={{color:"#2a1301",paddingLeft:"30px",paddingRight:"5px"}}><b>&#x1F5F9;</b> Онлайн через Zoom або офлайн в нашому центрі</td>
+                                <td className="text-start fs-6  p-2" style={{color:"#2a1301"}}><img src={process.env.PUBLIC_URL+"./images/check.png"} alt="check" style={{width:"25px",height:"25px"}} className="d-inline-block "/> Українські викладачі та носії мови</td>
+                                <td className="text-start fs-6  " style={{color:"#2a1301",paddingLeft:"30px",paddingRight:"5px"}}><img src={process.env.PUBLIC_URL+"./images/check.png"} alt="check" style={{width:"25px",height:"25px"}} className="d-inline-block "/> Онлайн через Zoom або офлайн в нашому центрі</td>
                             </tr>
                             <tr>
-                                <td className="text-start fs-6  p-2" style={{color:"#2a1301"}}><b>&#x1F5F9;</b> Програми адаптовані під вік та цілі студентів</td>
-                                <td className="text-start fs-6 " style={{color:"#2a1301",paddingLeft:"30px",paddingRight:"5px"}}><b>&#x1F5F9;</b> За перевіреними підручниками та авторськими матеріалами</td>
+                                <td className="text-start fs-6  p-2" style={{color:"#2a1301"}}><img src={process.env.PUBLIC_URL+"./images/check.png"} alt="check" style={{width:"25px",height:"25px"}} className="d-inline-block "/> Програми адаптовані під вік та цілі студентів</td>
+                                <td className="text-start fs-6 " style={{color:"#2a1301",paddingLeft:"30px",paddingRight:"5px"}}><img src={process.env.PUBLIC_URL+"./images/check.png"} alt="check" style={{width:"25px",height:"25px"}} className="d-inline-block "/> За перевіреними підручниками та авторськими матеріалами</td>
                             </tr>
                             </tbody>
                         </Table>
-<> {/*<h5 className="display-4 pt-5"><b>Як це працює</b></h5>*/}
-    {/*<CardGroup>*/}
-    {/*    <Card className="text-center mt-5 border-0" style={{color:"#2a1301", backgroundColor:"#f3dfc4"}}>*/}
-    {/*        <Card.Img className="" variant="top" src={process.env.PUBLIC_URL+"./images/test.png"} alt="tw" style={{width:"50px",height:"50px", marginLeft:"40%"}} />*/}
-    {/*        <Card.Body style={{marginLeft:""}} >*/}
-    {/*            <Card.Title className="fs-6">Заповніть форму</Card.Title>*/}
-    {/*            <Card.Text className="fs-6" >*/}
-    {/*                Перед записом рекомендуємо пройти наш тест.*/}
-    {/*            </Card.Text>*/}
-    {/*        </Card.Body>*/}
-    {/*    </Card>*/}
-    {/*    <Card className="text-center mt-5 border-0" style={{color:"#2a1301", backgroundColor:"#f3dfc4"}}>*/}
-    {/*        <Card.Body style={{padding:"0px"}}>*/}
-    {/*            <Card.Title style={{marginLeft:"0px", fontSize:"100px"}} >&#8680;</Card.Title>*/}
-    {/*        </Card.Body>*/}
-    {/*    </Card>*/}
-    {/*    <Card className="text-center mt-5 border-0" style={{color:"#2a1301", backgroundColor:"#f3dfc4"}}>*/}
-    {/*        <Card.Img className="" variant="top" src={process.env.PUBLIC_URL+"./images/book.png"} alt="tw" style={{width:"50px",height:"50px", marginLeft:"40%"}} />*/}
-    {/*        <Card.Body>*/}
-    {/*            <Card.Title className="fs-6">Отримайте матеріали</Card.Title>*/}
-    {/*            <Card.Text className="fs-6">*/}
-    {/*                Отримаєте необхідні навчальні матеріали*/}
-    {/*            </Card.Text>*/}
-    {/*        </Card.Body>*/}
-    {/*    </Card>*/}
-    {/*    <Card className="text-center mt-5 border-0" style={{color:"#2a1301", backgroundColor:"#f3dfc4"}}>*/}
-    {/*        <Card.Body style={{padding:"0px"}}>*/}
-    {/*            <Card.Title style={{marginLeft:"5px", fontSize:"100px"}} >&#8680;</Card.Title>*/}
-    {/*        </Card.Body>*/}
-    {/*    </Card>*/}
-    {/*    <Card className="text-center mt-5 border-0" style={{color:"#2a1301", backgroundColor:"#f3dfc4"}}>*/}
-    {/*        <Card.Img className="" variant="top" src={process.env.PUBLIC_URL+"./images/call.png"} alt="tw" style={{width:"50px",height:"50px", marginLeft:"40%"}} />*/}
-    {/*        <Card.Body>*/}
-    {/*            <Card.Title className="fs-6">Старт навчання</Card.Title>*/}
-    {/*            <Card.Text className="fs-6">*/}
-    {/*                Починаєте навчання згідно обраного формату*/}
-    {/*            </Card.Text>*/}
-    {/*        </Card.Body>*/}
-    {/*    </Card>*/}
-    {/*</CardGroup>*/}
-</>
-
                     </div>
                 </div>
                 <div className="col-md-4">
@@ -241,8 +199,8 @@ function AboutUs(){
 }
 function Teachers(){
     return(
-        <div id="teach" className="row justify-content-center align-items-center p-3 pb-5" style={{paddingBottom: "100px",color:"#2a1301", backgroundColor:"#f6e9e4",backgroundImage:"url()", backgroundRepeat:"repeat", backgroundSize:"35%",}}>
-            <h4 className="display-4 text-center border-bottom border-dark border-4 p-3" style={{width:"50%", marginTop: "50px"}} ><b>Наші викладачі</b></h4>
+        <div id="teach" className="row justify-content-center align-items-center p-md-5 pb-5" style={{paddingBottom: "100px",color:"#2a1301", backgroundColor:"#f6e9e4",backgroundImage:"url()", backgroundRepeat:"repeat", backgroundSize:"35%",}}>
+            <h4 className="display-4 text-center border-bottom border-dark border-3 p-3" style={{width:"50%", marginTop: ""}} ><b>Наші викладачі</b></h4>
             <h4 className=" text-center mt-5" >Вим сусципиантур дефинитионем ех, аугуе пхилосопхиа пер ан.</h4>
 
             <Container fluid className="p-3">
@@ -403,11 +361,10 @@ function Teachers(){
 </div>
     )
 }
-
 function Events(){
   return(
-      <div id="event" className="row justify-content-around align-items-center " style={{paddingBottom: "100px",color:"#2a1301", backgroundColor:"#f3e3de",backgroundImage:"url()", backgroundRepeat:"repeat", backgroundSize:"35%",}}>
-          <h4 className="display-4 text-center border-bottom border-dark border-4 p-3" style={{width:"75%", marginTop: "50px"}} ><b>Завжди раді Вас вітати на наших заходах</b></h4>
+      <div id="event" className="row justify-content-around align-items-center p-md-5 " style={{paddingBottom: "100px",color:"#2a1301", backgroundColor:"#f3e3de",backgroundImage:"url()", backgroundRepeat:"repeat", backgroundSize:"35%",}}>
+          <h4 className="display-4 text-center border-bottom border-dark border-3 p-3" style={{width:"75%", marginTop: "50px"}} ><b>Завжди раді Вас вітати на наших заходах</b></h4>
           <h4 className=" text-center mt-3" >Вим сусципиантур дефинитионем ех, аугуе пхилосопхиа пер ан.</h4>
           <Row xs={1} md={3}  className="g-4">
                   <Col>
@@ -418,34 +375,21 @@ function Events(){
                               <Card.Text>
                                   <p className="fs-2 ">ПК "ЦГЗК"</p>
                                   <p>Mусоргського, 19 </p>
-
                                   <p>Як ви зрозуміли, причин може бути безліч. Визначити з першого погляду важко. Тільки комплексний підхід та догляд дадуть можливість виростити велику, гарну та соковиту редиску для улюблених весняних салатів.</p>
                               </Card.Text>
-                              <Button href="/form" variant="" className=" btn btn-outline-dark btn text-white rounded-5 fw-bold mt-md-1" style={{border:"",paddingLeft: "40px", paddingRight: "40px", marginLeft: "", marginRight:"",backgroundColor:"#2a1301"}}>Долучитися</Button>
-                              {/*<Button variant="" className="btn btn-outline-dark btn text-white rounded-5 fw-bold" style={{border:"double 0px white",paddingLeft: "40px", paddingRight: "40px", marginLeft: "", margin:"10px",backgroundColor:"#2a1301"}}>Долучитися</Button>*/}
+                              <Button href="/form" variant="" className=" btn btn-outline-dark btn text-white rounded-5 fw-bold mt-md-1" style={{border:"",paddingLeft: "40px", paddingRight: "40px", marginLeft: "", marginRight:"",backgroundColor:"#2a1301"}}>ДОЛУЧИТИСЯ</Button>
                           </Card.Body>
                       </Card>
                   </Col>
               <Col>
                   <Card className=" rounded-5 w-sm-75 mx-sm-auto border-0" style={{ width: '' }}>
                       <Card.Img className="rounded-5" variant="top" src={process.env.PUBLIC_URL+"./images/mt.jpg"} />
-                      {/*<Card.ImgOverlay>*/}
-                      {/*    <Card.Title >*/}
-                      {/*        <p className="text-uppercase fs-1 text-danger lh-1">10/06/2023</p>*/}
-                      {/*        <p className="text-uppercase fs-1 text-primary lh-1 ">18.00</p>*/}
-                      {/*        <br className="d-none d-sm-block"/>*/}
-                      {/*        <p className="fs-2 ">ПК "ЦГЗК"</p>*/}
-                      {/*        <p>Mусоргського, 19 </p>*/}
-                      {/*        <Button href="/form" variant="" className=" btn btn-outline-dark btn text-white rounded-5 fw-bold mt-md-3" style={{border:"",paddingLeft: "40px", paddingRight: "40px", marginLeft: "", marginRight:"",backgroundColor:"#2a1301"}}>Долучитися</Button>*/}
-                      {/*    </Card.Title>*/}
-                      {/*</Card.ImgOverlay>*/}
                       <Card.Body>
                           <Card.Title>Захід другий</Card.Title>
                           <Card.Text>
                               Редиска є однією з найперших культур, яку висівають весною. З неї і роблять салати, яких вже так не вистачає. Приємно бачити активний ріст та дозрівання. І досить шкода, коли пророблена робота не виправдовує докладених зусиль. Маленька, нездала, рідка — в будь-якому випадку потрібно шукати причини такого явища.
                           </Card.Text>
-                          <Button href="/form" variant="" className=" btn btn-outline-dark btn text-white rounded-5 fw-bold mt-md-2" style={{border:"",paddingLeft: "40px", paddingRight: "40px", marginLeft: "", marginRight:"",backgroundColor:"#2a1301"}}>Долучитися</Button>
-                          {/*<Button variant="" className="btn btn-outline-dark btn text-white rounded-5 fw-bold" style={{border:"double 0px white",paddingLeft: "40px", paddingRight: "40px", marginLeft: "", margin:"10px",backgroundColor:"#2a1301"}}>Долучитися</Button>*/}
+                          <Button href="/form" variant="" className=" btn btn-outline-dark btn text-white rounded-5 fw-bold mt-md-2" style={{border:"",paddingLeft: "40px", paddingRight: "40px", marginLeft: "", marginRight:"",backgroundColor:"#2a1301"}}>ДОЛУЧИТИСЯ</Button>
                       </Card.Body>
                   </Card>
           </Col>
@@ -457,15 +401,11 @@ function Events(){
                           <Card.Text>
                               Стандартні умови та їх порушення також будуть негативно впливати на ваш врожай. Підживлення, надлишок чи дефіцит поливів, якість ґрунту, надто глибокий посів насіння — все це також впливає на редиску.
                           </Card.Text>
-                          <Button href="/form" variant="" className=" btn btn-outline-dark btn text-white rounded-5 fw-bold mt-md-1" style={{border:"",paddingLeft: "40px", paddingRight: "40px", marginLeft: "", marginRight:"",backgroundColor:"#2a1301"}}>Долучитися</Button>
-                          {/*<Button href="/form" variant="" className="btn btn-outline-dark btn text-white rounded-5 fw-bold" style={{border:"double 0px white",paddingLeft: "40px", paddingRight: "40px", marginLeft: "", margin:"10px",backgroundColor:"#2a1301"}}>Долучитися</Button>*/}
+                          <Button href="/form" variant="" className=" btn btn-outline-dark btn text-white rounded-5 fw-bold mt-md-1" style={{border:"",paddingLeft: "40px", paddingRight: "40px", marginLeft: "", marginRight:"",backgroundColor:"#2a1301"}}>ДОЛУЧИТИСЯ</Button>
                       </Card.Body>
                   </Card>
               </Col>
-
-
           </Row>
-
       </div>
   )
 }
@@ -498,15 +438,15 @@ function Contacts(){
     const [mydata, setData] = useState('');
     return(
     <div id="contact" className="text-center" style={{color:"#2a1301", backgroundColor:"#f8eade",paddingBottom:"", paddingTop:"20px",backgroundImage:"url()", backgroundRepeat:"repeat", backgroundSize:"35%",}}>
-        <div className="row align-items-center justify-content-center" style={{paddingBottom:""}}>
-            <h4 className="card-title display-4 text-center border-bottom border-dark border-4 p-3 w-75"><b>Ми завжди на зв'язку для Вас</b></h4>
+        <div className="row align-items-center justify-content-center p-3" style={{paddingBottom:""}}>
+            <h4 className="card-title display-4 text-center border-bottom border-dark border-3 p-3 w-75"><b>Ми завжди на зв'язку для Вас</b></h4>
 
             <Container fluid className="p-5">
             <Row xs={1} md={2}  className="g-5 ">
                 <Col>
                     <div>
                 <p className=" fs-5">Наші адміністратори з радістю допоможуть вирішити будь-яке питання.</p>
-                <img src={process.env.PUBLIC_URL+"./images/callCenter.jpg"} className="d-block w-100 mt-2 rounded-5" style={{boxShadow: ""}} alt="..."/>
+                <img src={process.env.PUBLIC_URL+"./images/callCenter.jpg"} className="d-block w-100 rounded-5" style={{boxShadow: ""}} alt="..."/>
                     </div>
                 </Col>
                 <Col>
@@ -645,7 +585,7 @@ function Contacts(){
             </div>
         </div>
 
-        <h6 className="border-top bg-light text-center mx-auto fs-4 mb-0 pt-3 "><b>Наші партнери:</b></h6>
+        <h6 className=" bg-light text-center mx-auto fs-4 mb-0 pt-3 "><b>Наші партнери:</b></h6>
             <Container fluid className="p-4 bg-light" style={{minWidth:""}}>
                 <Row xs={1} md={3}  className="g-0 justify-content-md-around align-items-center pb-3">
                     <Col md="auto">
@@ -658,7 +598,7 @@ function Contacts(){
                       <img src={process.env.PUBLIC_URL+"./images/partners/dia 1.png"} className=  "" style={{width: "350px"}} alt="..."/>
               </Col>
                 </Row>
-                <Row xs={3} md={3} className="g-0  pt-3 justify-content-center border-top border-dark border-2 ">
+                <Row xs={3} md={3} className="g-0  pt-3 justify-content-center border-top border-dark border-3 ">
                  <Col md="auto" xs="auto">
                      <div className=""
                           style={{padding:"", marginBottom: ""}}>
