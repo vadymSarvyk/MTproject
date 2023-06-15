@@ -100,32 +100,33 @@ function Programs(){
     return(
     <div id="prog" className="row justify-content-around align-items-center pt-0 pb-5 p-3" style={{paddingBottom: "100px",color:"#2a1301", backgroundColor:"#faf0eb",backgroundImage:"url()", backgroundRepeat:"repeat", backgroundSize:"35%", }}>
         <h4 className="display-4 text-center border-bottom border-dark border-3 p-3 w-75" style={{marginTop: "50px"}} ><b>Наші найпопулярніші програми</b></h4>
-        <h4 className=" text-center mt-5" >Лорем ипсум долор сит амет, сеа те долорес платонем.</h4>
+        <h4 className=" text-center mt-5" >Для будь-якоі вікової категорії, рівня володіння мовою і поставлених цілей. </h4>
 
         <div className="skill col-md-2 col-sm-8 rounded-5 text-start bg-light bg-opacity"
              style={{border:"double 0px black", width:"", minWidth:"250px", padding:"20px", boxShadow: "",color:"#2a1301",marginTop:"80px", backgroundColor:""}}>
-            <h4 className="" style={{marginBottom:"30px"}}><b>Для дітей</b></h4>
+            <h4 className="" style={{marginBottom:"20px"}}><b>Для дітей</b></h4>
             <p className="text-secondary"><small>Сеа ид принципес вулпутате пхилосопхиа, цу при дицант долорем инструцтиор. Ид персиус яуаеяуе хас, вис еверти патриояуе глориатур но. Нам ерат цонсулату.</small></p>
             <p><Link to="/kids" className="links" ><b>Дізнатися більше &rarr;</b></Link></p>
         </div>
 
         <div className="skill col-md-2 col-sm-8 rounded-5 text-start bg-light bg-opacity"
              style={{border:"double 0px black", width:"",minWidth:"250px", padding:"20px", boxShadow: "",color:"#2a1301",marginTop:"80px", backgroundColor:""}}>
-            <h4 className="" style={{marginBottom:"30px"}}><b>Для дорослих</b></h4>
-            <p className="text-secondary"><small>Сеа ид принципес вулпутате пхилосопхиа, цу при дицант долорем инструцтиор. Ид персиус яуаеяуе хас, вис еверти патриояуе глориатур но. Нам ерат цонсулату.!</small></p>
+            <h4 className="" style={{marginBottom:"20px"}}><b>Для дорослих</b></h4>
+            <p className="text-secondary"><small>Ви знали,що 8 з 10 людей, які починають вивчати мову, мають неправильне уявлення про свій рівень знання англійської? З радістю допоможемо Вам оцінити себе і вдосконалити свої досягнення.
+            </small></p>
             <p><Link to="/adults" className="links" ><b>Дізнатися більше &rarr;</b></Link></p>
         </div>
 
         <div className="skill col-md-2 col-sm-8 rounded-5 text-start bg-light bg-opacity"
              style={{border:"double 0px black", width:"", minWidth:"250px", padding:"20px", boxShadow: "",color:"#2a1301",marginTop:"80px", backgroundColor:""}}>
-            <h4 className="" style={{marginBottom:"30px"}}><b>Для бізнесу</b></h4>
+            <h4 className="" style={{marginBottom:"20px"}}><b>Для бізнесу</b></h4>
             <p className="text-secondary"><small>Сеа ид принципес вулпутате пхилосопхиа, цу при дицант долорем инструцтиор. Ид персиус яуаеяуе хас, вис еверти патриояуе глориатур но. Нам ерат цонсулату.!</small></p>
             <p><Link to="/business" className="links" ><b>Дізнатися більше &rarr;</b></Link></p>
         </div>
 
         <div className="skill col-md-2 col-sm-8 rounded-5 text-start bg-light bg-opacity"
              style={{border:"double 0px black", width:"", minWidth:"250px", padding:"20px", boxShadow: "",color:"#2a1301",marginTop:"80px", backgroundColor:""}}>
-            <h4 className="" style={{marginBottom:"30px"}} ><b>Підготовка до НМТ</b></h4>
+            <h4 className="" style={{marginBottom:"20px"}} ><b>Підготовка до НМТ</b></h4>
             <p className="text-secondary"><small>Сеа ид принципес вулпутате пхилосопхиа, цу при дицант долорем инструцтиор. Ид персиус яуаеяуе хас, вис еверти патриояуе глориатур но. Нам ерат цонсулату!</small></p>
             <p><Link to="/nmt" className="links" ><b>Дізнатися більше &rarr;</b></Link></p>
         </div>
@@ -139,30 +140,67 @@ function AboutUs(){
             <div className="row g-0">
                 <div className="col-md-8 ">
                     <div className="card-body pt-3  ">
-                        <h4 className="display-4 border-bottom border-dark border-3 p-3 mb-5 w-75 "><b>Про нас</b></h4>
-                        <p className="card-text  p-3 container-fluid pe-md-5 fs-6 rounded-5 mb-5" style={{border:"double 0px black",boxShadow: ""}}>Ліс ще дрімає в передранішній тиші… Непорушне стоять дерева, загорнені в сутінь, рясно вкриті краплистою росою. Тихо навкруги, мертво… Лиш де-не-де прокинеться пташка, непевним голосом обізветься зі свого затишку. Ліс ще дрімає… а з синім небом вже щось діється: воно то зблідне, наче від жаху, то спахне сяйвом, немов од радощів. Небо міниться, небо грає усякими барвами, блідим сяйвом торкає вершечки чорного лісу… Стрепенувся врешті ліс і собі заграв… Зашепотіли збуджені листочки, оповідаючи сни свої, заметушилась у травиці комашня, розітнулося в гущині голосне щебетання й полинуло високо — туди, де небо міниться, де небо грає всякими барвами…</p>
+                        <h4 className="display-4 border-bottom border-dark border-3 p-3 mb-3 w-75 "><b>Про нас</b></h4>
+                        <p className="card-text  p-3 container-fluid pe-md-5 fs-6 rounded-5 " style={{border:"double 0px black",boxShadow: ""}}>
+                            Ми школа іноземних мов MT SCHOOL.<br/>
+                            Наш головний напрямок - Англійська мова.<br/><br/>
+                            Яка наша мета?<br/>
+                            Наша основна мета - навчити Вас не тільки РОЗМОВЛЯТИ англійською, але й РОЗУМІТИ її, основні принципи побудови речень, скільки в ній часів та навіщо їх там стільки.<br/>
+                            Саме розуміння того, як працює мова, надає широкі можливості її використання на рівні носіїв.<br/><br/>
+                            Ми пропонуємо зробити Вам перший крок до розуміння англійської мови вже зараз, зареєструвавшись на безкоштовний пробний урок, а ми, в свою чергу, станемо Вашими надійними помічниками у досягненні цієї мети.
+                        </p>
 
-                        <h5 className="display-6 mb-3"><b>Як проходять наші заняття</b></h5>
-                        <Table className="table text-start table-borderless mt-3  " style={{width:"95%",border:"double 0px black", boxShadow: ""}}>
-                            <tbody>
-                            <tr>
-                                <td className="text-start fs-6 p-2 " style={{color:"#2a1301"}}><img src={process.env.PUBLIC_URL+"./images/check.png"} alt="check" style={{width:"25px",height:"25px"}} className="d-inline-block "/> У групі 8 чи 10 студентів</td>
-                                <td className="text-start fs-6  " style={{color:"#2a1301",paddingLeft:"30px", paddingRight:"5px"}}><img src={process.env.PUBLIC_URL+"./images/check.png"} alt="check" style={{width:"25px",height:"25px"}} className="d-inline-block "/> Лише англійською</td>
-                            </tr>
-                            <tr>
-                                <td className="text-start fs-6  p-2" style={{color:"#2a1301"}}><img src={process.env.PUBLIC_URL+"./images/check.png"} alt="check" style={{width:"25px",height:"25px"}} className="d-inline-block "/> Заняття 90, 135 чи 180 хв</td>
-                                <td className="text-start fs-6  " style={{color:"#2a1301",paddingLeft:"30px",paddingRight:"5px"}}><img src={process.env.PUBLIC_URL+"./images/check.png"} alt="check" style={{width:"25px",height:"25px"}} className="d-inline-block "/> Графік: 2–3 рази на тиждень</td>
-                            </tr>
-                            <tr>
-                                <td className="text-start fs-6  p-2" style={{color:"#2a1301"}}><img src={process.env.PUBLIC_URL+"./images/check.png"} alt="check" style={{width:"25px",height:"25px"}} className="d-inline-block "/> Українські викладачі та носії мови</td>
-                                <td className="text-start fs-6  " style={{color:"#2a1301",paddingLeft:"30px",paddingRight:"5px"}}><img src={process.env.PUBLIC_URL+"./images/check.png"} alt="check" style={{width:"25px",height:"25px"}} className="d-inline-block "/> Онлайн через Zoom або офлайн в нашому центрі</td>
-                            </tr>
-                            <tr>
-                                <td className="text-start fs-6  p-2" style={{color:"#2a1301"}}><img src={process.env.PUBLIC_URL+"./images/check.png"} alt="check" style={{width:"25px",height:"25px"}} className="d-inline-block "/> Програми адаптовані під вік та цілі студентів</td>
-                                <td className="text-start fs-6 " style={{color:"#2a1301",paddingLeft:"30px",paddingRight:"5px"}}><img src={process.env.PUBLIC_URL+"./images/check.png"} alt="check" style={{width:"25px",height:"25px"}} className="d-inline-block "/> За перевіреними підручниками та авторськими матеріалами</td>
-                            </tr>
-                            </tbody>
-                        </Table>
+                        {/*<h5 className="display-6 mb-3"><b>Як проходять наші заняття</b></h5>*/}
+                        <Row xs={1} md={1} lg={2}  className="g-0 ">
+                                <Col>
+                                    <h4 className="p-3">Що ми пропонуємо?</h4>
+                                    <Table className="table text-start table-borderless mt-3  " style={{width:"",border:"double 0px black", boxShadow: ""}}>
+                                        <tbody>
+                                        <tr>
+                                            <td className="text-start fs-6 " style={{color:"#2a1301"}}><img src={process.env.PUBLIC_URL+"./images/check.png"} alt="check" style={{width:"25px",height:"25px"}} className="d-inline-block "/>  </td>
+                                            <td className="text-start fs-6  " style={{color:"#2a1301",paddingLeft:"", paddingRight:"5px"}}> Індивідуальні та групові заняття до 6 чоловік</td>
+                                        </tr>
+                                        <tr>
+                                            <td className="text-start fs-6  " style={{color:"#2a1301"}}><img src={process.env.PUBLIC_URL+"./images/check.png"} alt="check" style={{width:"25px",height:"25px"}} className="d-inline-block "/>  </td>
+                                            <td className="text-start fs-6  " style={{color:"#2a1301",paddingLeft:"",paddingRight:"5px"}}>Онлайн та офлайн</td>
+                                        </tr>
+                                        <tr>
+                                            <td className="text-start fs-6  " style={{color:"#2a1301"}}><img src={process.env.PUBLIC_URL+"./images/check.png"} alt="check" style={{width:"25px",height:"25px"}} className="d-inline-block "/> </td>
+                                            <td className="text-start fs-6  " style={{color:"#2a1301",paddingLeft:"",paddingRight:"5px"}}>Для дорослих та дітей</td>
+                                        </tr>
+                                        <tr>
+                                            <td className="text-start fs-6" style={{color:"#2a1301"}}><img src={process.env.PUBLIC_URL+"./images/check.png"} alt="check" style={{width:"25px",height:"25px"}} className="d-inline-block "/> </td>
+                                            <td className="text-start fs-6 " style={{color:"#2a1301",paddingLeft:"",paddingRight:"5px"}}>Тривалість заняття: дорослі - 80 хв; діти - 60 хв.</td>
+                                        </tr>
+                                        </tbody>
+                                    </Table>
+
+                                </Col>
+                                <Col>
+                                    <h4 className="p-3">Що ми використовуємо?</h4>
+                                    <Table className="table text-start table-borderless mt-3  " style={{width:"",border:"double 0px black", boxShadow: ""}}>
+                                        <tbody>
+                                        <tr>
+                                            <td className="text-start" style={{color:"#2a1301"}}><img src={process.env.PUBLIC_URL+"./images/check.png"} alt="check" style={{width:"25px",height:"25px"}} className="d-inline-block "/>  </td>
+                                            <td className="text-start fs-6  " style={{color:"#2a1301",paddingLeft:"", paddingRight:""}}>Перевірені часом "English Files", четверте видавництво Oxford</td>
+                                        </tr>
+                                        <tr>
+                                            <td className="text-start " style={{color:"#2a1301"}}><img src={process.env.PUBLIC_URL+"./images/check.png"} alt="check" style={{width:"25px",height:"25px"}} className="d-inline-block "/>  </td>
+                                            <td className="text-start fs-6  " style={{color:"#2a1301",paddingLeft:"",paddingRight:""}}> Аудіо та відео матеріали для тренування сприйняття мови на слух</td>
+                                        </tr>
+                                        <tr>
+                                            <td className="text-start" style={{color:"#2a1301"}}><img src={process.env.PUBLIC_URL+"./images/check.png"} alt="check" style={{width:"25px",height:"25px"}} className="d-inline-block "/> </td>
+                                            <td className="text-start fs-6  " style={{color:"#2a1301",paddingLeft:"",paddingRight:""}}> Авторські напрацювання, що є найбільш ефективними для засвоєння матеріалу</td>
+                                        </tr>
+                                        <tr>
+                                            <td className="text-start" style={{color:"#2a1301"}}><img src={process.env.PUBLIC_URL+"./images/check.png"} alt="check" style={{width:"25px",height:"25px"}} className="d-inline-block "/> </td>
+                                            <td className="text-start fs-6 " style={{color:"#2a1301",paddingLeft:"",paddingRight:""}}>Перегляд  фрагментів Ваших улюблених фільмів та серіалів для створення міцних та веселих асоціацій, що полегшує процес запам'ятовування.</td>
+                                        </tr>
+                                        </tbody>
+                                    </Table>
+                                </Col>
+                        </Row>
+
                     </div>
                 </div>
                 <div className="col-md-4">
@@ -189,9 +227,6 @@ function AboutUs(){
                             </div>
                         </Carousel.Item>
                     </Carousel>
-
-
-                    {/*<img src={process.env.PUBLIC_URL+"./images/childr.jpg"} className="d-block w-100 mt-5 rounded" alt="..."/>*/}
                 </div>
             </div>
         </div>
@@ -363,43 +398,53 @@ function Teachers(){
 }
 function Events(){
   return(
-      <div id="event" className="row justify-content-around align-items-center p-md-5 " style={{paddingBottom: "100px",color:"#2a1301", backgroundColor:"#f3e3de",backgroundImage:"url()", backgroundRepeat:"repeat", backgroundSize:"35%",}}>
-          <h4 className="display-4 text-center border-bottom border-dark border-3 p-3" style={{width:"75%", marginTop: "50px"}} ><b>Завжди раді Вас вітати на наших заходах</b></h4>
-          <h4 className=" text-center mt-3" >Вим сусципиантур дефинитионем ех, аугуе пхилосопхиа пер ан.</h4>
+      <div id="event" className="row justify-content-around align-items-center pt-5 p-md-5 " style={{paddingBottom: "",color:"#2a1301", backgroundColor:"#f3e3de",backgroundImage:"url()", backgroundRepeat:"repeat", backgroundSize:"35%",}}>
+          <h4 className="display-4 text-center border-bottom border-dark border-3 pb-3" style={{width:"75%", marginTop: ""}} ><b>Завжди раді Вас вітати на наших заходах</b></h4>
+          <h4 className=" text-center mt-3" >Чудова можливість поспілкуватися і відкрити щось нове.</h4>
           <Row xs={1} md={3}  className="g-4">
                   <Col>
-                      <Card className=" rounded-5 mx-sm-auto border-0 h-auto" style={{ width: '' }}>
+                      <Card className=" rounded-5 mx-sm-auto border-0" style={{  height: '100%' }}>
                           <Card.Img className="img-fluid rounded-5" variant="top" src={process.env.PUBLIC_URL+"./images/stud.jpg"} />
                           <Card.Body>
                               <Card.Title>Захід перший</Card.Title>
                               <Card.Text>
-                                  <p className="fs-2 ">ПК "ЦГЗК"</p>
-                                  <p>Mусоргського, 19 </p>
-                                  <p>Як ви зрозуміли, причин може бути безліч. Визначити з першого погляду важко. Тільки комплексний підхід та догляд дадуть можливість виростити велику, гарну та соковиту редиску для улюблених весняних салатів.</p>
+                                      <p className="fs-2 ">ПК "ЦГЗК"</p>
+                                      <p>Mусоргського, 19 </p>
+                                      <div className="overflow-auto" style={{height:"100px",overflow:"", }}>
+                                      <p  style={{}}>Як ви зрозуміли, причин може бути безліч. Визначити з першого погляду важко. Тільки комплексний підхід та догляд дадуть можливість виростити велику, гарну та соковиту редиску для улюблених весняних салатів.Тільки комплексний підхід та догляд дадуть можливість виростити велику, гарну та соковиту редиску для улюблених весняних салатів.</p>
+                                      </div>
                               </Card.Text>
                               <Button href="/form" variant="" className=" btn btn-outline-dark btn text-white rounded-5 fw-bold mt-md-1" style={{border:"",paddingLeft: "40px", paddingRight: "40px", marginLeft: "", marginRight:"",backgroundColor:"#2a1301"}}>ДОЛУЧИТИСЯ</Button>
                           </Card.Body>
                       </Card>
                   </Col>
               <Col>
-                  <Card className=" rounded-5 w-sm-75 mx-sm-auto border-0" style={{ width: '' }}>
-                      <Card.Img className="rounded-5" variant="top" src={process.env.PUBLIC_URL+"./images/mt.jpg"} />
+                  <Card className=" rounded-5 w-sm-auto mx-sm-auto border-0" style={{ height: '100%' }}>
+                      <Card.Img className="img-fluid rounded-5" variant="top" src={process.env.PUBLIC_URL+"./images/mt.jpg"} />
                       <Card.Body>
                           <Card.Title>Захід другий</Card.Title>
                           <Card.Text>
-                              Редиска є однією з найперших культур, яку висівають весною. З неї і роблять салати, яких вже так не вистачає. Приємно бачити активний ріст та дозрівання. І досить шкода, коли пророблена робота не виправдовує докладених зусиль. Маленька, нездала, рідка — в будь-якому випадку потрібно шукати причини такого явища.
+                                  <p className="fs-2 ">ПК "IНГЗК"</p>
+                                  <p>Mусоргського, 19 </p>
+                              <div style={{height:"100px",overflow:"auto" }}>
+                                  <p style={{}}>Як ви зрозуміли, причин може бути безліч. Визначити з першого погляду важко. Тільки комплексний підхід та догляд дадуть можливість виростити велику, гарну та соковиту редиску.</p>
+                              </div>
                           </Card.Text>
-                          <Button href="/form" variant="" className=" btn btn-outline-dark btn text-white rounded-5 fw-bold mt-md-2" style={{border:"",paddingLeft: "40px", paddingRight: "40px", marginLeft: "", marginRight:"",backgroundColor:"#2a1301"}}>ДОЛУЧИТИСЯ</Button>
+                          <Button href="/form" variant="" className=" btn btn-outline-dark btn text-white rounded-5 fw-bold mt-md-1" style={{border:"",paddingLeft: "40px", paddingRight: "40px", marginLeft: "", marginRight:"",backgroundColor:"#2a1301"}}>ДОЛУЧИТИСЯ</Button>
                       </Card.Body>
                   </Card>
           </Col>
               <Col>
-                  <Card className="rounded-5 w-sm-75 mx-sm-auto border-0 " style={{ width: '' }}>
-                      <Card.Img className="rounded-5" variant="top" src={process.env.PUBLIC_URL+"./images/childr.jpg"} />
-                      <Card.Body >
-                          <Card.Title>Захід третій</Card.Title>
+                  <Card className=" rounded-5 w-sm-auto mx-sm-auto border-0" style={{ height: '100%' }}>
+                      <Card.Img className="img-fluid rounded-5" variant="top" src={process.env.PUBLIC_URL+"./images/childr.jpg"} />
+                      <Card.Body>
+                          <Card.Title>Захід другий</Card.Title>
                           <Card.Text>
-                              Стандартні умови та їх порушення також будуть негативно впливати на ваш врожай. Підживлення, надлишок чи дефіцит поливів, якість ґрунту, надто глибокий посів насіння — все це також впливає на редиску.
+                                  <p className="fs-2 ">ПК "ПІВНГЗК"</p>
+                                  <p>Mусоргського, 19 </p>
+                                  <div style={{height:"100px",overflow:"auto" }}>
+                                  <p>Як ви зрозуміли, причин може бути безліч. Визначити з першого погляду важко. Тільки комплексний підхід та догляд дадуть можливість виростити велику, гарну та соковиту редиску для улюблених весняних салатів.</p>
+                              </div>
                           </Card.Text>
                           <Button href="/form" variant="" className=" btn btn-outline-dark btn text-white rounded-5 fw-bold mt-md-1" style={{border:"",paddingLeft: "40px", paddingRight: "40px", marginLeft: "", marginRight:"",backgroundColor:"#2a1301"}}>ДОЛУЧИТИСЯ</Button>
                       </Card.Body>

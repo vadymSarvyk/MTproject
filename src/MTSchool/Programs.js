@@ -63,38 +63,54 @@ export function AdultsProg(){
                 <Carousel.Item>
                     <div className="d-block d-md-flex justify-content-between " style={{width:""}}>
 
-                        <div className="container-fluid  mx-auto mt-3 mt-md-0" style={{width:"", height:"", color:"",}}>
+                        <div className="container-fluid  mx-auto pt-3 mt-3 mt-md-0" style={{width:"", height:"", color:"",}}>
                             <img src={process.env.PUBLIC_URL+"./images/adultsProg3.jpg"} className="img-fluid rounded-5" alt="..."/>
                         </div>
 
-                        <div className="container-fluid p-3 " style={{width:"", height:"", color:"",marginLeft:"10px"}}>
-                            <h4>Заняття в команді</h4>
-                            <p className="card-text mt-1 fs-6">Ліс ще дрімає в передранішній тиші… Непорушне стоять дерева, загорнені в сутінь, рясно вкриті краплистою росою. Тихо навкруги, мертво… Лиш де-не-де прокинеться пташка, непевним голосом обізветься зі свого затишку. Ліс ще дрімає…   </p>
-                            <Button href="/form" className="btn btn-dark mt-md-5 p-2 rounded-3 fw-bold me-auto mb-5" style={{border:"double 0px white", width:"150px", backgroundColor:"#2a1301"} }>Приєднатися</Button>
+                        <div className="container-fluid p-3 ps-1 pe-5 " style={{width:"", height:"", color:"",marginLeft:"10px"}}>
+                            <h4>Beginner/Elementary </h4>
+                            <p className="card-text mt-1 fs-6">Ви отримаєте знання структури мови та зрозумієте основні її принципи та правила. Збудуєте міцний та надійний фундамент, на основі якого подальше вивчення мови стане набагато легшим.<br/>
+                                * Зможете розуміти пропозиції та вирази, що часто використовуються у основних сферах життя (базова інформація про сім'ю, покупки, географію, роботу).<br/>
+                                * Зможете спілкуватися на прості та щоденні теми, що вимагають простого та прямого обміну інформацією на знайомі чи побутові теми.<br/>
+                                * Зможете в простих висловлюваннях описати окремі аспекти свого минулого, сьогодення, а також питання щодо областей, з якими ви безпосередньо взаємодієте.<br/><br/>
+                                Також Ви отримаєте наш сертифікат про проходження рівня <b>Elementary</b>, який дасть Вам знижку на рівень <b>Pre-Intermediate</b>.
+                            </p>
+                            <Button href="/form" className="btn btn-dark mt-md-3 p-2 rounded-3 fw-bold me-auto mb-5" style={{border:"double 0px white", width:"150px", backgroundColor:"#2a1301"} }>Приєднатися</Button>
                         </div>
                     </div>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <div className="d-block d-md-flex justify-content-center " style={{width:""}}>
-                        <div className="container-fluid  mx-auto mt-3 mt-md-0" style={{width:"", height:"", color:"",}}>
+                    <div className="d-block d-md-flex justify-content-between " style={{width:""}}>
+                        <div className="container-fluid  mx-auto pt-3 mt-3 mt-md-0" style={{width:"", height:"", color:"",}}>
                             <img src={process.env.PUBLIC_URL+"./images/adultsProg1.jpg"} className="img-fluid rounded-5" alt="..."/>
                         </div>
-                        <div className="container-fluid p-3" style={{width:"", height:"", color:"",marginLeft:"10px"}}>
-                            <h4>Індивідуальні заняття</h4>
-                            <p className="card-text mt-1 fs-6">Ліс ще дрімає в передранішній тиші… Непорушне стоять дерева, загорнені в сутінь, рясно вкриті краплистою росою. Тихо навкруги, мертво… Лиш де-не-де прокинеться пташка, непевним голосом обізветься зі свого затишку. Ліс ще дрімає…   </p>
-                            <Button href="/form" className="btn btn-dark mt-md-5 p-2 rounded-3 fw-bold me-auto mb-5" style={{border:"double 0px white",width:"150px", backgroundColor:"#2a1301"} }>Приєднатися</Button>
+                        <div className="container-fluid p-3 ps-1  pe-5" style={{width:"", height:"", color:"",marginLeft:"10px"}}>
+                            <h4>Pre-intermediate</h4>
+                            <p className="card-text mt-1 mb-3 fs-6">Ви зможете розуміти основні ідеї стандартних пропозицій на знайомі теми, які регулярно зустрічаються на роботі, у школі, на відпочинку і т.д.<br/><br/>
+                                * Зможете спілкуватися в більшості ситуацій, які можуть виникнути під час перебування в країні, де говорять мовою, що вивчається (шопінг, запитати дорогу, замовити їжу в кафе/ресторані).<br/>
+                                * Зможете дивитися англомовний контент і розуміти суть почутого.<br/>
+                                * Зможете скласти текст на теми, які йому добре знайомі чи цікавлять його особисто.<br/>
+                                * Зможете описати враження, події, мрії, надії та прагнення, викласти та обґрунтувати свою думку та плани.<br/><br/>
+                                Також Ви отримаєте наш сертифікат про проходження рівня <b>Pre-Intermediate</b>, який дасть Вам знижку на рівень <b>Intermediate</b></p>
+                            <Button href="/form" className="btn btn-dark mt-md-3 p-2 rounded-3 fw-bold me-auto mb-5" style={{border:"double 0px white",width:"150px", backgroundColor:"#2a1301"} }>Приєднатися</Button>
                         </div>
                     </div>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <div className="d-block d-md-flex justify-content-center " style={{width:""}}>
-                        <div className="container-fluid  mx-auto mt-3 mt-md-0" style={{width:"", height:"", color:"",}}>
+                    <div className="d-block d-md-flex justify-content-between " style={{width:""}}>
+                        <div className="container-fluid  mx-auto pt-3 mt-3 mt-md-0" style={{width:"", height:"", color:"",}}>
                             <img src={process.env.PUBLIC_URL+"./images/adultsProg2.jpg"} className="img-fluid rounded-5" alt="..."/>
                         </div>
-                        <div className="container-fluid p-3" style={{width:"", height:"", color:"",marginLeft:"10px"}}>
-                            <h4>Підготовка до співбесіди</h4>
-                            <p className="card-text mt-1 fs-6">Ліс ще дрімає в передранішній тиші… Непорушне стоять дерева, загорнені в сутінь, рясно вкриті краплистою росою. Тихо навкруги, мертво… Лиш де-не-де прокинеться пташка, непевним голосом обізветься зі свого затишку. Ліс ще дрімає…   </p>
-                            <Button href="/form" className="btn btn-dark mt-md-5 p-2 rounded-3 fw-bold me-auto mb-5" style={{border:"double 0px white", width:"150px", backgroundColor:"#2a1301"} }>Приєднатися</Button>
+                        <div className="container-fluid p-3 ps-1  pe-5" style={{width:"", height:"", color:"",marginLeft:"10px"}}>
+                            <h4>Intermediate</h4>
+                            <p className="card-text mt-1 fs-6">Ви зможете розуміти основні ідеї конкретних та абстрактних повідомлень, включаючи обговорення у професійній сфері.<br/><br/>
+                                * Зможете дивитися англомовний контент, читати книги англійською та розуміти про що йдеться у піснях англійською мовою.<br/>
+                                * Зможете практично вільно та без попередньої підготовки обговорювати різні теми з носіями мови, не створюючи додаткових незручностей для них.<br/>
+                                * Зможете скласти зрозумілий та деталізований текст на різні теми.<br/>
+                                * Зможете описати враження, події, мрії, надії та прагнення, викласти та обґрунтувати свою думку та плани.<br/><br/>
+                                Також Ви отримаєте наш сертифікат про проходження рівня <b>Intermediate</b>, який дасть Вам знижку на вiдвiдування наших спiкiнг-клабiв.
+                            </p>
+                            <Button href="/form" className="btn btn-dark mt-md-3 p-2 rounded-3 fw-bold me-auto mb-5" style={{border:"double 0px white", width:"150px", backgroundColor:"#2a1301"} }>Приєднатися</Button>
                         </div>
                     </div>
                 </Carousel.Item>
