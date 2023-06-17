@@ -232,170 +232,170 @@ function AboutUs(){
         </div>
     )
 }
-function Teachers(){
-    return(
-        <div id="teach" className="row justify-content-center align-items-center p-md-5 pb-5" style={{paddingBottom: "100px",color:"#2a1301", backgroundColor:"#f6e9e4",backgroundImage:"url()", backgroundRepeat:"repeat", backgroundSize:"35%",}}>
-            <h4 className="display-4 text-center border-bottom border-dark border-3 p-3" style={{width:"50%", marginTop: ""}} ><b>Наші викладачі</b></h4>
-            <h4 className=" text-center mt-5" >Вим сусципиантур дефинитионем ех, аугуе пхилосопхиа пер ан.</h4>
+// function Teachers(){
+//     return(
+//         <div id="teach" className="row justify-content-center align-items-center p-md-5 pb-5" style={{paddingBottom: "100px",color:"#2a1301", backgroundColor:"#f6e9e4",backgroundImage:"url()", backgroundRepeat:"repeat", backgroundSize:"35%",}}>
+//             <h4 className="display-4 text-center border-bottom border-dark border-3 p-3" style={{width:"50%", marginTop: ""}} ><b>Наші викладачі</b></h4>
+//             <h4 className=" text-center mt-5" >Вим сусципиантур дефинитионем ех, аугуе пхилосопхиа пер ан.</h4>
 
-            <Container fluid className="p-3">
-                <Row xs={1} sm={2} md={4} lg={4}  className=" justify-content-around align-items-center">
-                    <Col
-                        // md="auto" xs="8" sm="5"
-                    >
-            <div className="skill text-center rounded-5 p-3 bg-light bg-opacity" style={{border:"double 0px black",width:"",maxWidth:"", height:"auto",marginTop:"80px", backgroundColor:"",boxShadow: ""}}>
-                <img src={process.env.PUBLIC_URL+"./images/dog.jpg"} className="img-fluid rounded-circle mt-3" alt="..." style={{width:"150px", height:"150px"}}/>
-                <h5 className=" text-center mt-3" >Ім'я Прізвище</h5>
-                <h6 className=" text-center mt-2">Англійська мова</h6>
-                <p className=" text-center mt-3"> "Був смажень, і швимкі яски спіралили в кружві, і марамульки йшли в псашки, як трулі долові". </p>
+//             <Container fluid className="p-3">
+//                 <Row xs={1} sm={2} md={4} lg={4}  className=" justify-content-around align-items-center">
+//                     <Col
+//                         // md="auto" xs="8" sm="5"
+//                     >
+//             <div className="skill text-center rounded-5 p-3 bg-light bg-opacity" style={{border:"double 0px black",width:"",maxWidth:"", height:"auto",marginTop:"80px", backgroundColor:"",boxShadow: ""}}>
+//                 <img src={process.env.PUBLIC_URL+"./images/dog.jpg"} className="img-fluid rounded-circle mt-3" alt="..." style={{width:"150px", height:"150px"}}/>
+//                 <h5 className=" text-center mt-3" >Ім'я Прізвище</h5>
+//                 <h6 className=" text-center mt-2">Англійська мова</h6>
+//                 <p className=" text-center mt-3"> "Був смажень, і швимкі яски спіралили в кружві, і марамульки йшли в псашки, як трулі долові". </p>
 
-                <div className="d-flex justify-content-center border-top border-dark  mx-auto pt-1 pb-2 " style={{color:"#2a1301"}}>
+//                 <div className="d-flex justify-content-center border-top border-dark  mx-auto pt-1 pb-2 " style={{color:"#2a1301"}}>
 
-                    <div className="flex-item "
-                         style={{padding:"0px", marginRight: "10px"}}>
-                        <a className="navbar-brand" href="http://twitter.com/">
-                            <img src={process.env.PUBLIC_URL+"./images/twitter-128.png"} alt="tw" style={{width:"20px",height:"20px"}}
-                                 className="d-inline-block  "/>
-                        </a>
-                    </div>
+//                     <div className="flex-item "
+//                          style={{padding:"0px", marginRight: "10px"}}>
+//                         <a className="navbar-brand" href="http://twitter.com/">
+//                             <img src={process.env.PUBLIC_URL+"./images/twitter-128.png"} alt="tw" style={{width:"20px",height:"20px"}}
+//                                  className="d-inline-block  "/>
+//                         </a>
+//                     </div>
 
-                    <div className="flex-item "
-                         style={{padding:"0px", marginRight: "10px"}}>
-                        <a className="navbar-brand" href="http://facebook.com/">
-                            <img src={process.env.PUBLIC_URL+"./images/facebook-128.png" } alt="fb" style={{width:"20px",height:"20px"}}
-                                 className="d-inline-block "/>
-                        </a>
-                    </div>
+//                     <div className="flex-item "
+//                          style={{padding:"0px", marginRight: "10px"}}>
+//                         <a className="navbar-brand" href="http://facebook.com/">
+//                             <img src={process.env.PUBLIC_URL+"./images/facebook-128.png" } alt="fb" style={{width:"20px",height:"20px"}}
+//                                  className="d-inline-block "/>
+//                         </a>
+//                     </div>
 
-                    <div className="flex-item "
-                         style={{padding:"0px", marginRight: "10px"}}>
-                        <a className="navbar-brand" href="http://instagram.com/">
-                            <img src={process.env.PUBLIC_URL+"./images/instagram-2-128.png"} alt="inst" style={{width:"20px",height:"20px"}}
-                                 className="d-inline-block "/>
-                        </a>
-                    </div>
-                </div>
+//                     <div className="flex-item "
+//                          style={{padding:"0px", marginRight: "10px"}}>
+//                         <a className="navbar-brand" href="http://instagram.com/">
+//                             <img src={process.env.PUBLIC_URL+"./images/instagram-2-128.png"} alt="inst" style={{width:"20px",height:"20px"}}
+//                                  className="d-inline-block "/>
+//                         </a>
+//                     </div>
+//                 </div>
 
-            </div>
-                    </Col>
+//             </div>
+//                     </Col>
 
-<Col
-    // md="auto" xs="8" sm="5"
->
-    <div className=" skill  text-center rounded-5 p-3 bg-light bg-opacity" style={{border:"double 0px black", width:"",maxWidth:"", height:"auto",marginTop:"80px", backgroundColor:"",boxShadow: ""}}>
-        <img src={process.env.PUBLIC_URL+"./images/girl.jpg"} className="img-fluid rounded-circle mt-3" alt="..." style={{width:"150px", height:"150px"}}/>
-        <h5 className=" text-center mt-3" >Ім'я Прізвище</h5>
-        <h6 className=" text-center mt-2">Іспанська мова</h6>
-        <p className=" text-center mt-3"> "Мій сину, бійсь Курзу-Верзу, то зубий дряполап! Не знайся з птицею Зу-зу і велезнем!" </p>
-        <div className="d-flex justify-content-center border-top border-dark  mx-auto pt-1 pb-2 " style={{color:"#2a1301"}}>
+// <Col
+//     // md="auto" xs="8" sm="5"
+// >
+//     <div className=" skill  text-center rounded-5 p-3 bg-light bg-opacity" style={{border:"double 0px black", width:"",maxWidth:"", height:"auto",marginTop:"80px", backgroundColor:"",boxShadow: ""}}>
+//         <img src={process.env.PUBLIC_URL+"./images/girl.jpg"} className="img-fluid rounded-circle mt-3" alt="..." style={{width:"150px", height:"150px"}}/>
+//         <h5 className=" text-center mt-3" >Ім'я Прізвище</h5>
+//         <h6 className=" text-center mt-2">Іспанська мова</h6>
+//         <p className=" text-center mt-3"> "Мій сину, бійсь Курзу-Верзу, то зубий дряполап! Не знайся з птицею Зу-зу і велезнем!" </p>
+//         <div className="d-flex justify-content-center border-top border-dark  mx-auto pt-1 pb-2 " style={{color:"#2a1301"}}>
 
-            <div className="flex-item "
-                 style={{padding:"0px", marginRight: "10px"}}>
-                <a className="navbar-brand" href="http://twitter.com/">
-                    <img src={process.env.PUBLIC_URL+"./images/twitter-128.png"} alt="tw" style={{width:"20px",height:"20px"}}
-                         className="d-inline-block  "/>
-                </a>
-            </div>
+//             <div className="flex-item "
+//                  style={{padding:"0px", marginRight: "10px"}}>
+//                 <a className="navbar-brand" href="http://twitter.com/">
+//                     <img src={process.env.PUBLIC_URL+"./images/twitter-128.png"} alt="tw" style={{width:"20px",height:"20px"}}
+//                          className="d-inline-block  "/>
+//                 </a>
+//             </div>
 
-            <div className="flex-item "
-                 style={{padding:"0px", marginRight: "10px"}}>
-                <a className="navbar-brand" href="http://facebook.com/">
-                    <img src={process.env.PUBLIC_URL+"./images/facebook-128.png" } alt="fb" style={{width:"20px",height:"20px"}}
-                         className="d-inline-block "/>
-                </a>
-            </div>
+//             <div className="flex-item "
+//                  style={{padding:"0px", marginRight: "10px"}}>
+//                 <a className="navbar-brand" href="http://facebook.com/">
+//                     <img src={process.env.PUBLIC_URL+"./images/facebook-128.png" } alt="fb" style={{width:"20px",height:"20px"}}
+//                          className="d-inline-block "/>
+//                 </a>
+//             </div>
 
-            <div className="flex-item "
-                 style={{padding:"0px", marginRight: "10px"}}>
-                <a className="navbar-brand" href="http://instagram.com/">
-                    <img src={process.env.PUBLIC_URL+"./images/instagram-2-128.png"} alt="inst" style={{width:"20px",height:"20px"}}
-                         className="d-inline-block "/>
-                </a>
-            </div>
-        </div>
-    </div>
-</Col>
+//             <div className="flex-item "
+//                  style={{padding:"0px", marginRight: "10px"}}>
+//                 <a className="navbar-brand" href="http://instagram.com/">
+//                     <img src={process.env.PUBLIC_URL+"./images/instagram-2-128.png"} alt="inst" style={{width:"20px",height:"20px"}}
+//                          className="d-inline-block "/>
+//                 </a>
+//             </div>
+//         </div>
+//     </div>
+// </Col>
 
-<Col
-    // md="auto" xs="8" sm="5"
->
-    <div className="skill rounded-5 p-3 text-center bg-light bg-opacity" style={{border:"double 0px black", width:"", maxWidth:"", height:"auto",marginTop:"80px", backgroundColor:"",boxShadow: ""}}>
-        <img src={process.env.PUBLIC_URL+"./images/boy.jpg"} className="img-fluid rounded-circle mt-3" alt="..." style={{width:"150px", height:"150px"}}/>
-        <h5 className=" text-center mt-3" >Ім'я Прізвище</h5>
-        <h6 className=" text-center mt-2">Німецька мова</h6>
-        <p className=" text-center mt-3">"Меча-штрича він в руки взяв, тропив ворожий слід,
-            і в думній тужі спочивав у дерві діодід". </p>
-        <div className="d-flex justify-content-center border-top border-dark  mx-auto pt-1 pb-2 " style={{color:"#2a1301"}}>
+// <Col
+//     // md="auto" xs="8" sm="5"
+// >
+//     <div className="skill rounded-5 p-3 text-center bg-light bg-opacity" style={{border:"double 0px black", width:"", maxWidth:"", height:"auto",marginTop:"80px", backgroundColor:"",boxShadow: ""}}>
+//         <img src={process.env.PUBLIC_URL+"./images/boy.jpg"} className="img-fluid rounded-circle mt-3" alt="..." style={{width:"150px", height:"150px"}}/>
+//         <h5 className=" text-center mt-3" >Ім'я Прізвище</h5>
+//         <h6 className=" text-center mt-2">Німецька мова</h6>
+//         <p className=" text-center mt-3">"Меча-штрича він в руки взяв, тропив ворожий слід,
+//             і в думній тужі спочивав у дерві діодід". </p>
+//         <div className="d-flex justify-content-center border-top border-dark  mx-auto pt-1 pb-2 " style={{color:"#2a1301"}}>
 
-            <div className="flex-item "
-                 style={{padding:"0px", marginRight: "10px"}}>
-                <a className="navbar-brand" href="http://twitter.com/">
-                    <img src={process.env.PUBLIC_URL+"./images/twitter-128.png"} alt="tw" style={{width:"20px",height:"20px"}}
-                         className="d-inline-block  "/>
-                </a>
-            </div>
+//             <div className="flex-item "
+//                  style={{padding:"0px", marginRight: "10px"}}>
+//                 <a className="navbar-brand" href="http://twitter.com/">
+//                     <img src={process.env.PUBLIC_URL+"./images/twitter-128.png"} alt="tw" style={{width:"20px",height:"20px"}}
+//                          className="d-inline-block  "/>
+//                 </a>
+//             </div>
 
-            <div className="flex-item "
-                 style={{padding:"0px", marginRight: "10px"}}>
-                <a className="navbar-brand" href="http://facebook.com/">
-                    <img src={process.env.PUBLIC_URL+"./images/facebook-128.png" } alt="fb" style={{width:"20px",height:"20px"}}
-                         className="d-inline-block "/>
-                </a>
-            </div>
+//             <div className="flex-item "
+//                  style={{padding:"0px", marginRight: "10px"}}>
+//                 <a className="navbar-brand" href="http://facebook.com/">
+//                     <img src={process.env.PUBLIC_URL+"./images/facebook-128.png" } alt="fb" style={{width:"20px",height:"20px"}}
+//                          className="d-inline-block "/>
+//                 </a>
+//             </div>
 
-            <div className="flex-item "
-                 style={{padding:"0px", marginRight: "10px"}}>
-                <a className="navbar-brand" href="http://instagram.com/">
-                    <img src={process.env.PUBLIC_URL+"./images/instagram-2-128.png"} alt="inst" style={{width:"20px",height:"20px"}}
-                         className="d-inline-block "/>
-                </a>
-            </div>
-        </div>
-    </div>
-</Col>
+//             <div className="flex-item "
+//                  style={{padding:"0px", marginRight: "10px"}}>
+//                 <a className="navbar-brand" href="http://instagram.com/">
+//                     <img src={process.env.PUBLIC_URL+"./images/instagram-2-128.png"} alt="inst" style={{width:"20px",height:"20px"}}
+//                          className="d-inline-block "/>
+//                 </a>
+//             </div>
+//         </div>
+//     </div>
+// </Col>
 
-<Col
-    // md="auto" xs="8" sm="5"
->
-    <div className="skill  text-center rounded-5 p-3 bg-light bg-opacity" style={{border:"double 0px black", width:"",maxWidth:"", height:"auto",marginTop:"80px", backgroundColor:"",boxShadow: ""}}>
-        <img src={process.env.PUBLIC_URL+"./images/cat.jpg"} className="img-fluid rounded-circle mt-3" alt="..." style={{width:"150px", height:"150px"}}/>
-        <h5 className=" text-center mt-3" >Ім'я Прізвище</h5>
-        <h6 className=" text-center mt-2">Польська мова</h6>
-        <p className=" text-center mt-3"> "Він раз мечем! він два штричем, аж кервиться торва! І барбаризнула з плечей сміюцька долова!". </p>
-        <div className="d-flex justify-content-center border-top border-dark  mx-auto pt-1 pb-2 " style={{color:"#2a1301"}}>
+// <Col
+//     // md="auto" xs="8" sm="5"
+// >
+//     <div className="skill  text-center rounded-5 p-3 bg-light bg-opacity" style={{border:"double 0px black", width:"",maxWidth:"", height:"auto",marginTop:"80px", backgroundColor:"",boxShadow: ""}}>
+//         <img src={process.env.PUBLIC_URL+"./images/cat.jpg"} className="img-fluid rounded-circle mt-3" alt="..." style={{width:"150px", height:"150px"}}/>
+//         <h5 className=" text-center mt-3" >Ім'я Прізвище</h5>
+//         <h6 className=" text-center mt-2">Польська мова</h6>
+//         <p className=" text-center mt-3"> "Він раз мечем! він два штричем, аж кервиться торва! І барбаризнула з плечей сміюцька долова!". </p>
+//         <div className="d-flex justify-content-center border-top border-dark  mx-auto pt-1 pb-2 " style={{color:"#2a1301"}}>
 
-            <div className="flex-item "
-                 style={{padding:"0px", marginRight: "10px"}}>
-                <a className="navbar-brand" href="http://twitter.com/">
-                    <img src={process.env.PUBLIC_URL+"./images/twitter-128.png"} alt="tw" style={{width:"20px",height:"20px"}}
-                         className="d-inline-block  "/>
-                </a>
-            </div>
+//             <div className="flex-item "
+//                  style={{padding:"0px", marginRight: "10px"}}>
+//                 <a className="navbar-brand" href="http://twitter.com/">
+//                     <img src={process.env.PUBLIC_URL+"./images/twitter-128.png"} alt="tw" style={{width:"20px",height:"20px"}}
+//                          className="d-inline-block  "/>
+//                 </a>
+//             </div>
 
-            <div className="flex-item "
-                 style={{padding:"0px", marginRight: "10px"}}>
-                <a className="navbar-brand" href="http://facebook.com/">
-                    <img src={process.env.PUBLIC_URL+"./images/facebook-128.png" } alt="fb" style={{width:"20px",height:"20px"}}
-                         className="d-inline-block "/>
-                </a>
-            </div>
+//             <div className="flex-item "
+//                  style={{padding:"0px", marginRight: "10px"}}>
+//                 <a className="navbar-brand" href="http://facebook.com/">
+//                     <img src={process.env.PUBLIC_URL+"./images/facebook-128.png" } alt="fb" style={{width:"20px",height:"20px"}}
+//                          className="d-inline-block "/>
+//                 </a>
+//             </div>
 
-            <div className="flex-item "
-                 style={{padding:"0px", marginRight: "10px"}}>
-                <a className="navbar-brand" href="http://instagram.com/">
-                    <img src={process.env.PUBLIC_URL+"./images/instagram-2-128.png"} alt="inst" style={{width:"20px",height:"20px"}}
-                         className="d-inline-block "/>
-                </a>
-            </div>
-        </div>
-    </div>
+//             <div className="flex-item "
+//                  style={{padding:"0px", marginRight: "10px"}}>
+//                 <a className="navbar-brand" href="http://instagram.com/">
+//                     <img src={process.env.PUBLIC_URL+"./images/instagram-2-128.png"} alt="inst" style={{width:"20px",height:"20px"}}
+//                          className="d-inline-block "/>
+//                 </a>
+//             </div>
+//         </div>
+//     </div>
 
-</Col>
-                </Row>
-            </Container>
-</div>
-    )
-}
+// </Col>
+//                 </Row>
+//             </Container>
+// </div>
+//     )
+// }
 function Events(){
   return(
       <div id="event" className="row justify-content-around align-items-center pt-5 p-md-5 " style={{paddingBottom: "",color:"#2a1301", backgroundColor:"#f3e3de",backgroundImage:"url()", backgroundRepeat:"repeat", backgroundSize:"35%",}}>
