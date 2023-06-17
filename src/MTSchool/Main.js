@@ -396,6 +396,7 @@ function AboutUs(){
 // </div>
 //     )
 // }
+//
 function Events(){
   return(
       <div id="event" className="row justify-content-around align-items-center pt-5 p-md-5 " style={{paddingBottom: "",color:"#2a1301", backgroundColor:"#f3e3de",backgroundImage:"url()", backgroundRepeat:"repeat", backgroundSize:"35%",}}>
