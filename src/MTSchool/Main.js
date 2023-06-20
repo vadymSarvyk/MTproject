@@ -688,7 +688,7 @@ function MainLand(){
             <Main></Main>
             <AboutUs></AboutUs>
             <Programs></Programs>
-            <Teachers></Teachers>
+            {/* <Teachers></Teachers> */}
             <Events></Events>
             <Contacts></Contacts>
         </>
@@ -705,7 +705,7 @@ function HomePage(){
                             <Route exact path="/" element={<MainLand/>} />
                             <Route path="/prog" element={<Programs/>}/>
                             <Route path="/about" element={<AboutUs/>}/>
-                            <Route path="/teach" element={<Teachers/>}/>
+                            {/* <Route path="/teach" element={<Teachers/>}/> */}
                             <Route path="/event" element={<Events/>}/>
                             <Route path="/contact" element={<Contacts/>}/>
                             <Route path="/kids" element={<KidsProg/>}/>
