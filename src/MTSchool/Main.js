@@ -34,7 +34,7 @@ function Navigat(){
                         <Nav.Link href="/" className="active" style={{marginRight:"20px"}}>Головна сторінка</Nav.Link>
                         <Nav.Link href="/about" style={{marginRight:"20px"}}>Про нас</Nav.Link>
                         <Nav.Link href="/prog" style={{marginRight:"20px"}}>Програми</Nav.Link>
-                        {/* <Nav.Link href="/teach" style={{marginRight:"20px"}}>Викладачі</Nav.Link> */}
+                      
                         <Nav.Link href="/event" style={{marginRight:"20px"}}>Івенти</Nav.Link>
                         <Nav.Link href="/contact" style={{marginRight:"0"}}>Контакти</Nav.Link>
                     </Nav>
