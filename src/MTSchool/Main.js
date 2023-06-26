@@ -105,7 +105,7 @@ function Programs(){
         <div className="skill col-md-2 col-sm-8 rounded-5 text-start bg-light bg-opacity"
              style={{border:"double 0px black", width:"", minWidth:"250px", padding:"20px", boxShadow: "",color:"#2a1301",marginTop:"80px", backgroundColor:""}}>
             <h4 className="" style={{marginBottom:"20px"}}><b>Для дітей</b></h4>
-            <p className="text-secondary"><small>Сеа ид принципес вулпутате пхилосопхиа, цу при дицант долорем инструцтиор. Ид персиус яуаеяуе хас, вис еверти патриояуе глориатур но. Нам ерат цонсулату.</small></p>
+            <p className="text-secondary"><small>Практика показує, що ті хто починали вивчення мови з дитячих років, мають найкращі результати серед однолітків. Саме тому наші викладачі працюють за сучасними матеріалами світових видань для досягнення найкращих результатів у вивчені іноземних мов.</small></p>
             <p><Link to="/kids" className="links" ><b>Дізнатися більше &rarr;</b></Link></p>
         </div>
 
