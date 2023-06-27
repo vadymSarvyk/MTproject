@@ -8,12 +8,13 @@ import Navbar from 'react-bootstrap/Navbar';
 import Table from 'react-bootstrap/Table';
 import {KidsProg, NMTProg, AdultsProg, BusinessProg} from "./Programs.js";
 import {MTForm} from "./Form";
-import {Button} from "react-bootstrap";
+import {Button, Figure} from "react-bootstrap";
 import axios from "axios";
 import Carousel from "react-bootstrap/Carousel";
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
+
 function Navigat(){
     return (
         <Navbar bg="light" expand="lg" className="container-fluid sticky-top bg-opacity p-2" >
@@ -34,7 +35,7 @@ function Navigat(){
                         <Nav.Link href="/" className="active" style={{marginRight:"20px"}}>Головна сторінка</Nav.Link>
                         <Nav.Link href="/about" style={{marginRight:"20px"}}>Про нас</Nav.Link>
                         <Nav.Link href="/prog" style={{marginRight:"20px"}}>Програми</Nav.Link>
-                      
+                        {/*<Nav.Link href="/teach" style={{marginRight:"20px"}}>Викладачі</Nav.Link>*/}
                         <Nav.Link href="/event" style={{marginRight:"20px"}}>Івенти</Nav.Link>
                         <Nav.Link href="/contact" style={{marginRight:"0"}}>Контакти</Nav.Link>
                     </Nav>
@@ -52,8 +53,18 @@ function Main(){
                 <img style={{marginLeft:"auto"}} src={process.env.PUBLIC_URL+"./images/MTlogo_bg.png"} width="400" height="auto" className="d-inline-block mx-sm-auto" alt="logo"/>
             </div>
 
-            <h2 className="display-8 mb-5 border-top border-dark border-3 pt-3  pb-md-3 ms-md-5 text-md-start text-center " style={{width:"fit-content"}}>Mother Tongue School - watch and learn!</h2>
-            <Button href="/form" className="btn btn-dark  ms-md-5  mt-3 mb-5 p-2 rounded-5 fw-bold mx-sm-auto" style={{marginLeft:"35px", width:"340px", backgroundColor:"#2a1301", border:"double 7px white"} }>ПРИЄДНАТИСЯ ДО НАС</Button>
+            <h3 className="display-8 mb-3 border-top border-dark border-3 pt-3  pb-md-1 ms-md-5  text-md-start text-center fw-bold" style={{width:"fit-content"}}>Mother Tongue School - школа іноземних мов</h3>
+            <Figure className="text-lg-end text-md-center ms-md-5 ps-md-3 pe-md-3">
+                <blockquote className="blockquote fs-5">
+                    <p>“Do you know what a foreign accent is? It's a sign of bravery.”</p>
+                    <p>“Знаєте, що таке акцент? Це ознака хоробрості.“</p>
+                </blockquote>
+                <Figure.Caption className="blockquote-footer mt-3 fs-6 text-end">
+                    <cite title="Source Title" className="text-dark">Amy Chua</cite>
+                </Figure.Caption>
+            </Figure>
+<br/>
+            <Button href="/form" className="btn btn-dark  ms-md-5  mt-0 mb-5 p-2 rounded-5 fw-bold mx-sm-auto" style={{marginLeft:"35px", width:"340px", backgroundColor:"#2a1301", border:"double 7px white"} }>ПРИЄДНАТИСЯ ДО НАС</Button>
         </div>
 
         <div className="pt-md-5 ms-5 flex  text-end d-none d-sm-block"  style={{width:"40%", height:"100%", borderTopRightRadius:"",borderBottomLeftRadius:""}}>
@@ -105,31 +116,34 @@ function Programs(){
         <div className="skill col-md-2 col-sm-8 rounded-5 text-start bg-light bg-opacity"
              style={{border:"double 0px black", width:"", minWidth:"250px", padding:"20px", boxShadow: "",color:"#2a1301",marginTop:"80px", backgroundColor:""}}>
             <h4 className="" style={{marginBottom:"20px"}}><b>Для дітей</b></h4>
-            <p className="text-secondary"><small>Практика показує, що ті хто починали вивчення мови з дитячих років, мають найкращі результати серед однолітків. Саме тому наші викладачі працюють за сучасними матеріалами світових видань для досягнення найкращих результатів у вивчені іноземних мов.</small></p>
+            <p className="text-secondary"><small>Практика показує, що ті, хто починали вивчення мови з дитячих років, мають найкращі результати серед однолітків. Саме тому наші викладачі працюють за сучасними матеріалами світових видань для досягнення найкращих результатів у вивченні іноземних мов.</small></p>
             <p><Link to="/kids" className="links" ><b>Дізнатися більше &rarr;</b></Link></p>
         </div>
 
         <div className="skill col-md-2 col-sm-8 rounded-5 text-start bg-light bg-opacity"
              style={{border:"double 0px black", width:"",minWidth:"250px", padding:"20px", boxShadow: "",color:"#2a1301",marginTop:"80px", backgroundColor:""}}>
             <h4 className="" style={{marginBottom:"20px"}}><b>Для дорослих</b></h4>
-            <p className="text-secondary"><small>Ви знали,що 8 з 10 людей, які починають вивчати мову, мають неправильне уявлення про свій рівень знання англійської? З радістю допоможемо Вам оцінити себе і вдосконалити свої досягнення.
+            <p className="text-secondary"><small>Ви знали,що 8 з 10 людей, які починають вивчати мову, мають неправильне уявлення про свій рівень знання англійської? Ми допоможемо Вам оцінити себе і вдосконалити свої досягнення, бо саме реальне розуміння своїх сил дозволяє вірно скласти програму навчання і зробити свої заняття ефективними.
             </small></p>
+            {/*<br/>*/}
+            {/*<br/>*/}
+            {/*<br/>*/}
             <p><Link to="/adults" className="links" ><b>Дізнатися більше &rarr;</b></Link></p>
         </div>
 
         <div className="skill col-md-2 col-sm-8 rounded-5 text-start bg-light bg-opacity"
              style={{border:"double 0px black", width:"", minWidth:"250px", padding:"20px", boxShadow: "",color:"#2a1301",marginTop:"80px", backgroundColor:""}}>
             <h4 className="" style={{marginBottom:"20px"}}><b>Для бізнесу</b></h4>
-            <p className="text-secondary"><small>Сеа ид принципес вулпутате пхилосопхиа, цу при дицант долорем инструцтиор. Ид персиус яуаеяуе хас, вис еверти патриояуе глориатур но. Нам ерат цонсулату.!</small></p>
+            <p className="text-secondary"><small>Курси бізнес англійської - це прекрасна можливість вивчити англійську мову саме в Вашій сфері діяльності. Спілкуйтесь з іноземними колегами, замовниками або підвищуйте свій професійний рівень майстерності за допомогою іноземних джерел та ресурсів.</small></p>
             <p><Link to="/business" className="links" ><b>Дізнатися більше &rarr;</b></Link></p>
         </div>
 
-        <div className="skill col-md-2 col-sm-8 rounded-5 text-start bg-light bg-opacity"
+        {/* <div className="skill col-md-2 col-sm-8 rounded-5 text-start bg-light bg-opacity"
              style={{border:"double 0px black", width:"", minWidth:"250px", padding:"20px", boxShadow: "",color:"#2a1301",marginTop:"80px", backgroundColor:""}}>
             <h4 className="" style={{marginBottom:"20px"}} ><b>Підготовка до НМТ</b></h4>
             <p className="text-secondary"><small>Сеа ид принципес вулпутате пхилосопхиа, цу при дицант долорем инструцтиор. Ид персиус яуаеяуе хас, вис еверти патриояуе глориатур но. Нам ерат цонсулату!</small></p>
             <p><Link to="/nmt" className="links" ><b>Дізнатися більше &rarr;</b></Link></p>
-        </div>
+        </div> */}
     </div>
 
     )
@@ -237,7 +251,7 @@ function AboutUs(){
 //         <div id="teach" className="row justify-content-center align-items-center p-md-5 pb-5" style={{paddingBottom: "100px",color:"#2a1301", backgroundColor:"#f6e9e4",backgroundImage:"url()", backgroundRepeat:"repeat", backgroundSize:"35%",}}>
 //             <h4 className="display-4 text-center border-bottom border-dark border-3 p-3" style={{width:"50%", marginTop: ""}} ><b>Наші викладачі</b></h4>
 //             <h4 className=" text-center mt-5" >Вим сусципиантур дефинитионем ех, аугуе пхилосопхиа пер ан.</h4>
-
+//
 //             <Container fluid className="p-3">
 //                 <Row xs={1} sm={2} md={4} lg={4}  className=" justify-content-around align-items-center">
 //                     <Col
@@ -248,9 +262,9 @@ function AboutUs(){
 //                 <h5 className=" text-center mt-3" >Ім'я Прізвище</h5>
 //                 <h6 className=" text-center mt-2">Англійська мова</h6>
 //                 <p className=" text-center mt-3"> "Був смажень, і швимкі яски спіралили в кружві, і марамульки йшли в псашки, як трулі долові". </p>
-
+//
 //                 <div className="d-flex justify-content-center border-top border-dark  mx-auto pt-1 pb-2 " style={{color:"#2a1301"}}>
-
+//
 //                     <div className="flex-item "
 //                          style={{padding:"0px", marginRight: "10px"}}>
 //                         <a className="navbar-brand" href="http://twitter.com/">
@@ -258,7 +272,7 @@ function AboutUs(){
 //                                  className="d-inline-block  "/>
 //                         </a>
 //                     </div>
-
+//
 //                     <div className="flex-item "
 //                          style={{padding:"0px", marginRight: "10px"}}>
 //                         <a className="navbar-brand" href="http://facebook.com/">
@@ -266,7 +280,7 @@ function AboutUs(){
 //                                  className="d-inline-block "/>
 //                         </a>
 //                     </div>
-
+//
 //                     <div className="flex-item "
 //                          style={{padding:"0px", marginRight: "10px"}}>
 //                         <a className="navbar-brand" href="http://instagram.com/">
@@ -275,10 +289,10 @@ function AboutUs(){
 //                         </a>
 //                     </div>
 //                 </div>
-
+//
 //             </div>
 //                     </Col>
-
+//
 // <Col
 //     // md="auto" xs="8" sm="5"
 // >
@@ -288,7 +302,7 @@ function AboutUs(){
 //         <h6 className=" text-center mt-2">Іспанська мова</h6>
 //         <p className=" text-center mt-3"> "Мій сину, бійсь Курзу-Верзу, то зубий дряполап! Не знайся з птицею Зу-зу і велезнем!" </p>
 //         <div className="d-flex justify-content-center border-top border-dark  mx-auto pt-1 pb-2 " style={{color:"#2a1301"}}>
-
+//
 //             <div className="flex-item "
 //                  style={{padding:"0px", marginRight: "10px"}}>
 //                 <a className="navbar-brand" href="http://twitter.com/">
@@ -296,7 +310,7 @@ function AboutUs(){
 //                          className="d-inline-block  "/>
 //                 </a>
 //             </div>
-
+//
 //             <div className="flex-item "
 //                  style={{padding:"0px", marginRight: "10px"}}>
 //                 <a className="navbar-brand" href="http://facebook.com/">
@@ -304,7 +318,7 @@ function AboutUs(){
 //                          className="d-inline-block "/>
 //                 </a>
 //             </div>
-
+//
 //             <div className="flex-item "
 //                  style={{padding:"0px", marginRight: "10px"}}>
 //                 <a className="navbar-brand" href="http://instagram.com/">
@@ -315,7 +329,7 @@ function AboutUs(){
 //         </div>
 //     </div>
 // </Col>
-
+//
 // <Col
 //     // md="auto" xs="8" sm="5"
 // >
@@ -326,7 +340,7 @@ function AboutUs(){
 //         <p className=" text-center mt-3">"Меча-штрича він в руки взяв, тропив ворожий слід,
 //             і в думній тужі спочивав у дерві діодід". </p>
 //         <div className="d-flex justify-content-center border-top border-dark  mx-auto pt-1 pb-2 " style={{color:"#2a1301"}}>
-
+//
 //             <div className="flex-item "
 //                  style={{padding:"0px", marginRight: "10px"}}>
 //                 <a className="navbar-brand" href="http://twitter.com/">
@@ -334,7 +348,7 @@ function AboutUs(){
 //                          className="d-inline-block  "/>
 //                 </a>
 //             </div>
-
+//
 //             <div className="flex-item "
 //                  style={{padding:"0px", marginRight: "10px"}}>
 //                 <a className="navbar-brand" href="http://facebook.com/">
@@ -342,7 +356,7 @@ function AboutUs(){
 //                          className="d-inline-block "/>
 //                 </a>
 //             </div>
-
+//
 //             <div className="flex-item "
 //                  style={{padding:"0px", marginRight: "10px"}}>
 //                 <a className="navbar-brand" href="http://instagram.com/">
@@ -353,7 +367,7 @@ function AboutUs(){
 //         </div>
 //     </div>
 // </Col>
-
+//
 // <Col
 //     // md="auto" xs="8" sm="5"
 // >
@@ -363,7 +377,7 @@ function AboutUs(){
 //         <h6 className=" text-center mt-2">Польська мова</h6>
 //         <p className=" text-center mt-3"> "Він раз мечем! він два штричем, аж кервиться торва! І барбаризнула з плечей сміюцька долова!". </p>
 //         <div className="d-flex justify-content-center border-top border-dark  mx-auto pt-1 pb-2 " style={{color:"#2a1301"}}>
-
+//
 //             <div className="flex-item "
 //                  style={{padding:"0px", marginRight: "10px"}}>
 //                 <a className="navbar-brand" href="http://twitter.com/">
@@ -371,7 +385,7 @@ function AboutUs(){
 //                          className="d-inline-block  "/>
 //                 </a>
 //             </div>
-
+//
 //             <div className="flex-item "
 //                  style={{padding:"0px", marginRight: "10px"}}>
 //                 <a className="navbar-brand" href="http://facebook.com/">
@@ -379,7 +393,7 @@ function AboutUs(){
 //                          className="d-inline-block "/>
 //                 </a>
 //             </div>
-
+//
 //             <div className="flex-item "
 //                  style={{padding:"0px", marginRight: "10px"}}>
 //                 <a className="navbar-brand" href="http://instagram.com/">
@@ -389,14 +403,13 @@ function AboutUs(){
 //             </div>
 //         </div>
 //     </div>
-
+//
 // </Col>
 //                 </Row>
 //             </Container>
 // </div>
 //     )
 // }
-//
 function Events(){
   return(
       <div id="event" className="row justify-content-around align-items-center pt-5 p-md-5 " style={{paddingBottom: "",color:"#2a1301", backgroundColor:"#f3e3de",backgroundImage:"url()", backgroundRepeat:"repeat", backgroundSize:"35%",}}>
@@ -470,11 +483,13 @@ function Contacts(){
     const onSubmit = (data) => {
         setData(data);
 
+
+
         const mydata={
             Name: data.name,
             Mail: data.mail,
             Phone: data.phone,
-            Text: data.text
+            Text: data.text,
         }
         axios.post('https://sheet.best/api/sheets/4a7ab197-ce68-4abb-a7e9-652d9afb6086', mydata).then((response)=>{
             reset();
@@ -688,7 +703,7 @@ function MainLand(){
             <Main></Main>
             <AboutUs></AboutUs>
             <Programs></Programs>
-            {/* <Teachers></Teachers> */}
+            {/*<Teachers></Teachers>*/}
             <Events></Events>
             <Contacts></Contacts>
         </>
@@ -705,7 +720,7 @@ function HomePage(){
                             <Route exact path="/" element={<MainLand/>} />
                             <Route path="/prog" element={<Programs/>}/>
                             <Route path="/about" element={<AboutUs/>}/>
-                            {/* <Route path="/teach" element={<Teachers/>}/> */}
+                            {/*<Route path="/teach" element={<Teachers/>}/>*/}
                             <Route path="/event" element={<Events/>}/>
                             <Route path="/contact" element={<Contacts/>}/>
                             <Route path="/kids" element={<KidsProg/>}/>
