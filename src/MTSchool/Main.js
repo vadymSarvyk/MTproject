@@ -652,13 +652,13 @@ function Contacts(){
             <Container fluid className="p-4 bg-light" style={{minWidth:""}}>
                 <Row xs={1} md={3}  className="g-0 justify-content-md-around align-items-center pb-3">
                     <Col md="auto">
-                    <img src={process.env.PUBLIC_URL+"./images/partners/culture 1.jpg"} className=" " style={{width: "170px"}} alt="..."/>
+                    <img src={process.env.PUBLIC_URL+"./images/partners/culture_1.png"} className=" " style={{width: "170px"}} alt="..."/>
                     </Col>
                     <Col md="auto">
                             <img src={process.env.PUBLIC_URL+"./images/partners/blue palace.png"} className="  " style={{width: "200px"}} alt="..."/>
                     </Col>
               <Col md="auto">
-                      <img src={process.env.PUBLIC_URL+"./images/partners/i_mariupil.jpg"} className=  "" style={{width: "350px"}} alt="..."/>
+                      <img src={process.env.PUBLIC_URL+"./images/partners/i_mariupil.png"} className=  "" style={{width: "350px"}} alt="..."/>
               </Col>
                 </Row>
                 <Row xs={3} md={3} className="g-0  pt-3 justify-content-center border-top border-dark border-3 ">
