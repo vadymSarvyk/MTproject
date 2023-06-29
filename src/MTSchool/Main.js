@@ -658,7 +658,7 @@ function Contacts(){
                             <img src={process.env.PUBLIC_URL+"./images/partners/blue palace.png"} className="  " style={{width: "200px"}} alt="..."/>
                     </Col>
               <Col md="auto">
-                      <img src={process.env.PUBLIC_URL+"./images/partners/i_mariupil.png"} className=  "" style={{width: "350px"}} alt="..."/>
+                      <img src={process.env.PUBLIC_URL+"./images/partners/i_mariupil.jpg"} className=  "" style={{width: "350px"}} alt="..."/>
               </Col>
                 </Row>
                 <Row xs={3} md={3} className="g-0  pt-3 justify-content-center border-top border-dark border-3 ">
