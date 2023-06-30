@@ -451,7 +451,7 @@ function Events(){
           </Col>
               <Col>
                   <Card className=" rounded-5 w-sm-auto mx-sm-auto border-0" style={{ height: '100%' }}>
-                      <Card.Img className="img-fluid rounded-5" variant="top" src={process.env.PUBLIC_URL+"./images/childr1.jpg"} />
+                      <Card.Img className="img-fluid rounded-5" variant="top" src={process.env.PUBLIC_URL+"./images/childr.jpg"} />
                       <Card.Body>
                           <Card.Title>Презентація школи MT SCHOOL</Card.Title>
                           <Card.Text>
@@ -652,13 +652,13 @@ function Contacts(){
             <Container fluid className="p-4 bg-light" style={{minWidth:""}}>
                 <Row xs={1} md={3}  className="g-0 justify-content-md-around align-items-center pb-3">
                     <Col md="auto">
-                    <img src={process.env.PUBLIC_URL+"./images/partners/culture_1.png"} className=" " style={{width: "170px"}} alt="..."/>
+                    <img src={process.env.PUBLIC_URL+"./images/partners/culture_1.png"} className="rounded-5" style={{width: "170px"}} alt="..."/>
                     </Col>
                     <Col md="auto">
-                            <img src={process.env.PUBLIC_URL+"./images/partners/blue palace.png"} className="  " style={{width: "200px"}} alt="..."/>
+                            <img src={process.env.PUBLIC_URL+"./images/partners/blue palace.png"} className="rounded-5" style={{width: "200px"}} alt="..."/>
                     </Col>
               <Col md="auto">
-                      <img src={process.env.PUBLIC_URL+"./images/partners/i_mariupil.jpg"} className=  "" style={{width: "350px"}} alt="..."/>
+                      <img src={process.env.PUBLIC_URL+"./images/partners/i_mariupil.jpg"} className=  "rounded-5" style={{width: "170px"}} alt="..."/>
               </Col>
                 </Row>
                 <Row xs={3} md={3} className="g-0  pt-3 justify-content-center border-top border-dark border-3 ">
@@ -695,7 +695,7 @@ function Contacts(){
 
                 </Row>
             </Container>
-        <p className="text-center mx-auto  bg-light pb-3"><b>&#169; UNTITLED 2023</b></p>
+        <p className="text-center mx-auto  bg-light pb-3"><b>&#169; DONEBYMYSELF 2023</b></p>
 </div>
     )
 }
