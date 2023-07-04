@@ -23,7 +23,7 @@ export function MTForm(){
             Phone: data.phone,
             Text: data.text
         }
-        axios.post('https://sheet.best/api/sheets/4a7ab197-ce68-4abb-a7e9-652d9afb6086', mydata).then((response)=>{
+        axios.post('https://sheet.best/api/sheets/798fc5ec-db35-429a-9abe-6876e7ec0b6a', mydata).then((response)=>{
             reset();
             setData('');
         })
