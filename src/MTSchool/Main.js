@@ -83,7 +83,7 @@ function Main(){
 
                 <div className="flex-item border border-dark border-5 rounded-5"
                      style={{padding:"3px", marginRight: "20px"}}>
-                    <a className="navbar-brand" href="https://www.facebook.com/mothertongueschool">
+                    <a className="navbar-brand" href="https://www.facebook.com/mtschool.kr/">
                         <img src={process.env.PUBLIC_URL+"./images/facebook-128.png" } alt="fb" style={{width:"60px",height:"60px"}}
                              className="d-inline-block align-text-top"/>
                     </a>
@@ -91,7 +91,7 @@ function Main(){
 
                 <div className="flex-item border border-dark border-5 rounded-5"
                      style={{padding:"3px", marginRight: "20px"}}>
-                    <a className="navbar-brand" href="https://www.instagram.com/mothertongueschool">
+                    <a className="navbar-brand" href="https://www.instagram.com/mtschool.kr/">
                         <img src={process.env.PUBLIC_URL+"./images/instagram-2-128.png"} alt="inst" style={{width:"60px",height:"60px"}}
                              className="d-inline-block align-text-top"/>
                     </a>
@@ -677,7 +677,7 @@ function Contacts(){
                     <Col xs="auto" md="auto">
                         <div className=""
                              style={{padding:"", marginBottom: ""}}>
-                            <a className="navbar-brand" href="https://www.facebook.com/mothertongueschool">
+                            <a className="navbar-brand" href="https://www.facebook.com/mtschool.kr/">
                                 <img src={process.env.PUBLIC_URL+"./images/facebook-128.png" } alt="fb" style={{width:"30px",height:"30px"}}
                                      className="d-inline-block "/>
                             </a>
@@ -686,7 +686,7 @@ function Contacts(){
                     <Col xs="auto" md="auto">
                         <div className=""
                              style={{padding:"", marginBottom: ""}}>
-                            <a className="navbar-brand" href="https://www.instagram.com/mothertongueschool">
+                            <a className="navbar-brand" href="https://www.instagram.com/mtschool.kr/">
                                 <img src={process.env.PUBLIC_URL+"./images/instagram-2-128.png"} alt="inst" style={{width:"30px",height:"30px"}}
                                      className="d-inline-block "/>
                             </a>
