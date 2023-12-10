@@ -9,7 +9,7 @@ export function MTForm(){
     const [message, setMessage] = useState('');
     const [loading, setLoading] = useState(false);
 
-   const handleSubmit(e){
+   function handleSubmit(e){
         e.preventDefault();
 
  setLoading(true);
