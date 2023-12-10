@@ -1,5 +1,4 @@
 import React from "react";
-import {useForm} from "react-hook-form";
 import {useState} from "react";
 import axios from "axios";
 import './Main.css';
@@ -10,13 +9,7 @@ export function MTForm(){
     const [message, setMessage] = useState('');
     const [loading, setLoading] = useState(false);
 
-    const{
-        register,
-        formState:{errors},
-        handleSubmit,
-        reset
-    } =useForm() ;
-    const handleSubmit(e){
+   const handleSubmit(e){
         e.preventDefault();
 
  setLoading(true);
