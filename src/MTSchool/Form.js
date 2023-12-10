@@ -8,9 +8,16 @@ export function MTForm(){
     const [phone, setPhone] = useState('');
     const [message, setMessage] = useState('');
     const [loading, setLoading] = useState(false);
+function validateForm() {
+        return email.length > 0 && name.length > 0 && phone.length > 0 && message.length > 0;
+    }
 
    function handleSubmit(e){
         e.preventDefault();
+if (!validateForm()) {
+            alert('Please fill in all fields.');
+            return;
+        }
 
  setLoading(true);
 
@@ -45,61 +52,32 @@ export function MTForm(){
                                 value={name}
                 onChange={e => setName(e.target.value)}
 
-                               {...register('name',{required:"Це поле обовязкове до заповнення!",
-                                   pattern: /^[a-zA-Zа-яА-ЯґҐєЄіІїЇ' ]+$/,
-                                   minLength:{
-                                       value:2,
-                                       message:"Введіть мінімум 2 символи!"
-                                   }})}/>
+                              />
                     </div>
 
-                    <div style={{margin:"5px", color:"red"}}>
-                        {errors?.mail&&<p>{errors?.mail?.message||"Введіть коректний e-mail!"}</p>}
-                    </div>
+                  
                     <div className="input-group mb-3">
                         <input id="mail" type="email" className="form-control" placeholder="Ваш e-mail"
                                value={email}
                 onChange={e => setEmail(e.target.value)}
 
-                               {...register('mail',{required:"Це поле обовязкове до заповнення!",
-                               })}/>
+                             />
                     </div>
-                    <div style={{margin:"5px", color:"red"}}>
-                        {errors?.phone&&<p>{errors?.phone?.message||"Введіть коректний номер!"}</p>}
-                    </div>
+                    
                     <div className="input-group mb-3 text-center">
                         <input type="phone" className="form-control" placeholder="Номер телефону"
                                value={phone}
                 onChange={e => setPhone(e.target.value)}
-                               {...register('phone',{
-                                   minLength:{
-                                       value:10,
-                                       message:"Введіть мінімум 10 символів!"},
-                                   pattern: {
-                                       message:"Введіть коректний номер!",
-                                       value: /\d+/},
-                                   onChange: (e) => {
-                                       e.target.value = e.target.value.replace(/(\d{2})\-?(\d{3})\-?(\d{3})\-?(\d{2})\-?(\d{2})/, "$1-$2-$3-$4-$5");
-                                   },
-
-                                   required:"Це поле обовязкове до заповнення!"
-                               })}
-                               onInput={(e) => {
-                                   e.target.value = e.target.value.replace(/[^\d]/g, "");
-                               }}
+                               
                         />
                     </div>
-                    <div style={{margin:"5px", color:"red"}}>
-                        {errors?.text&&<p>{errors?.text?.message||"Error"}</p>}
-                    </div>
+                  
                     <textarea className="form-control mb-3" id="exampleFormControlTextarea1" placeholder="Коротко опишіть Ваші побажання щодо курсу:"
                               rows="5"
                              value={message}
                 onChange={e => setMessage(e.target.value)}
 
-                              {...register('text',{
-                                  required:"Це поле обовязкове до заповнення!"
-                              })}
+                            
                     ></textarea>
                     <button type="submit"  value="Відправити" className="btn btn-outline-dark btn text-white rounded-5 fw-bold mx-auto" style={{border:"double 0px white", paddingLeft: "40px", paddingRight: "40px", marginLeft: "", marginTop:"20px",backgroundColor:"#2a1301"}}>Відправити</button>
                 </form>
