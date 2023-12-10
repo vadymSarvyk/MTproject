@@ -44,9 +44,7 @@ if (!validateForm()) {
             <div className="col-sm-8 col-md-5 bg-light mx-auto mt-5 rounded-5 " style={{border:"double 0px black", padding:"30px", boxShadow: "10px 6px 33px 0px rgba(117,115,117,1)"}}>
                 <h2 className="card-title mb-5 text-center">Напишіть нам і ми Вам зателефонуємо!</h2>
                 <form onSubmit={handleSubmit} className="form-group text-center">
-                    <div style={{margin:"5px", color:"red"}}>
-                        {errors?.name&&<p>{errors?.name?.message||"Error"}</p>}
-                    </div>
+                   
                     <div className="input-group mb-3">
                         <input id="name" type="text" className="form-control" placeholder="Як до Вас звертатися"
                                 value={name}
