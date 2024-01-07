@@ -35,7 +35,7 @@ if (!validateForm()) {
         .catch(error => {
           setLoading(false);
         });
-       
+       setName('');
     };
     const [mydata, setData] = useState('');
 
