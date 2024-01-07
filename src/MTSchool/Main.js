@@ -471,32 +471,39 @@ function Events(){
   )
 }
 function Contacts(){
-    let name=React.createRef();
-    let mail=React.createRef();
-    let phone=React.createRef();
-    let text=React.createRef();
-    const{
-        register,
-        formState:{errors},
-        handleSubmit,
-        reset
-    } =useForm() ;
+   const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [phone, setPhone] = useState('');
+    const [message, setMessage] = useState('');
+    const [loading, setLoading] = useState(false);
+function validateForm() {
+        return email.length > 0 && name.length > 0 && phone.length > 0 && message.length > 0;
+    }
 
-    const onSubmit = (data) => {
-        setData(data);
-
-
-
-        const mydata={
-            Name: data.name,
-            Mail: data.mail,
-            Phone: data.phone,
-            Text: data.text,
+   function handleSubmit(e){
+        e.preventDefault();
+if (!validateForm()) {
+            alert('Please fill in all fields.');
+            return;
         }
-        axios.post('https://sheet.best/api/sheets/798fc5ec-db35-429a-9abe-6876e7ec0b6a', mydata).then((response)=>{
-            reset();
-            setData('');
+
+ setLoading(true);
+
+        const formData = new FormData();
+        formData.append('Name', name);
+        formData.append('Email', email);
+        formData.append('Phone', phone);
+        formData.append('Message', message);
+
+        axios.post("https://script.google.com/macros/s/AKfycbwrT670bDonK60UOfjVgxxZZFgpkFg6-cxYfrmWTSVMAYQbfll3esu1TGLRazrvcVjlIw/exec", formData)
+        .then(response => {
+          setLoading(false);
+          
         })
+        .catch(error => {
+          setLoading(false);
+        });
+       
     };
     const [mydata, setData] = useState('');
     return(
