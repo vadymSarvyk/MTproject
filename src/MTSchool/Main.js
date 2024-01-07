@@ -515,64 +515,42 @@ function Contacts(){
                 <Col>
                     <div className="  mx-auto bg-light  rounded-5 bg-opacity-75" style={{marginLeft:"",border:"double 0px black",padding:"20px", boxShadow: ""}}>
                     <h2 className="card-title mb-5 text-center">Напишіть нам і ми Вам зателефонуємо!</h2>
-                    <form onSubmit={handleSubmit(onSubmit)} >
-                        <div style={{margin:"5px", color:"red"}}>
-                            {errors?.name&&<p>{errors?.name?.message||"Error"}</p>}
-                        </div>
-                        <div className="input-group mb-3">
-                            <input id="nam" type="text" className="form-control" placeholder="Як до Вас звертатися"
-                                   ref={name}
-                                   {...register('name',{required:"Це поле обовязкове до заповнення!",
-                                       pattern: /^[a-zA-Zа-яА-ЯґҐєЄіІїЇ' ]+$/,
-                                       minLength:{
-                                           value:2,
-                                           message:"Введіть мінімум 2 символи!"
-                                       }})}/>
-                        </div>
+                    <form onSubmit={handleSubmit} className="form-group text-center">
+                   
+                    <div className="input-group mb-3">
+                        <input id="name" type="text" className="form-control" placeholder="Як до Вас звертатися"
+                                value={name}
+                onChange={e => setName(e.target.value)}
 
-                        <div style={{margin:"5px", color:"red"}}>
-                            {errors?.mail&&<p>{errors?.mail?.message||"Введіть коректний e-mail!"}</p>}
-                        </div>
-                        <div className="input-group mb-3">
-                            <input id="mail" type="email" className="form-control" placeholder="Ваш e-mail"
-                                   ref={mail}
-                                   {...register('mail',{required:"Це поле обовязкове до заповнення!",
-                                   })}/>
-                        </div>
-                        <div style={{margin:"5px", color:"red"}}>
-                            {errors?.phone&&<p>{errors?.phone?.message||"Введіть коректний номер!"}</p>}
-                        </div>
-                        <div className="input-group mb-3 text-center">
-                            <input type="phone" className="form-control" placeholder="Номер телефону:"
-                                   ref={phone}
-                                   {...register('phone',{
-                                       minLength:{
-                                           value:10,
-                                           message:"Введіть мінімум 10 символів!"},
-                                       pattern: {
-                                           message:"Введіть коректний номер!",
-                                           value: /\d+/},
-                                       onChange: (e) => {
-                                           e.target.value = e.target.value.replace(/(\d{2})\-?(\d{3})\-?(\d{3})\-?(\d{2})\-?(\d{2})/, "$1-$2-$3-$4-$5");
-                                       },
-                                       required:"Це поле обовязкове до заповнення!"
-                                   })}
-                                   onInput={(e) => {
-                                       e.target.value = e.target.value.replace(/[^\d]/g, "");
-                                   }}
-                            />
-                        </div>
-                        <div style={{margin:"5px", color:"red"}}>
-                            {errors?.text&&<p>{errors?.text?.message||"Error"}</p>}
-                        </div>
-                        <textarea className="form-control mb-3" id="exampleFormControlTextarea1" placeholder="Коротко опишіть Ваше питання:"
-                                  rows="5" ref={text}
-                                  {...register('text',{
-                                      required:"Це поле обовязкове до заповнення!"
-                                  })}
-                        ></textarea>
-                        <input type="submit" value="ВІДПРАВИТИ" className="btn btn-outline-dark btn text-white rounded-5 fw-bold" style={{border:"double 0px white",paddingLeft: "40px", paddingRight: "40px", marginLeft: "", marginTop:"20px",backgroundColor:"#2a1301"}}/>
-                    </form>
+                              />
+                    </div>
+
+                  
+                    <div className="input-group mb-3">
+                        <input id="mail" type="email" className="form-control" placeholder="Ваш e-mail"
+                               value={email}
+                onChange={e => setEmail(e.target.value)}
+
+                             />
+                    </div>
+                    
+                    <div className="input-group mb-3 text-center">
+                        <input type="phone" className="form-control" placeholder="Номер телефону"
+                               value={phone}
+                onChange={e => setPhone(e.target.value)}
+                               
+                        />
+                    </div>
+                  
+                    <textarea className="form-control mb-3" id="exampleFormControlTextarea1" placeholder="Коротко опишіть Ваші побажання щодо курсу:"
+                              rows="5"
+                             value={message}
+                onChange={e => setMessage(e.target.value)}
+
+                            
+                    ></textarea>
+                    <button type="submit"  value="Відправити" className="btn btn-outline-dark btn text-white rounded-5 fw-bold mx-auto" style={{border:"double 0px white", paddingLeft: "40px", paddingRight: "40px", marginLeft: "", marginTop:"20px",backgroundColor:"#2a1301"}}>Відправити</button>
+                </form>
                     </div>
 
                 </Col>
