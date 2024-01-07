@@ -35,7 +35,7 @@ if (!validateForm()) {
         .catch(error => {
           setLoading(false);
         });
-       setName('');
+       setName('');setEmail('');setPhone('');setMessage('');
     };
     const [mydata, setData] = useState('');
 
