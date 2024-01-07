@@ -100,7 +100,7 @@ function Main(){
             <div className="text-center p-2  mt-3 fs-4">
                 <b>+38(097)-111-78-95</b>
                 <br/>
-                <b>м. Кривий Ріг, пр. Миру 29В, оф.10</b>
+                <b>м. Кривий Ріг, вул. Героїв АТО, 11</b>
             </div>
 
         </div>
@@ -113,14 +113,14 @@ function Programs(){
         <h4 className="display-4 text-center border-bottom border-dark border-3 p-3 w-75" style={{marginTop: "50px"}} ><b>Наші найпопулярніші програми</b></h4>
         <h4 className=" text-center mt-5" >Для будь-якоі вікової категорії, рівня володіння мовою і поставлених цілей. </h4>
 
-        <div className="skill col-md-2 col-sm-8 rounded-5 text-start bg-light bg-opacity"
+        <div className="skill col-md-3 col-sm-8 rounded-5 text-start bg-light bg-opacity"
              style={{border:"double 0px black", width:"", minWidth:"250px", padding:"20px", boxShadow: "",color:"#2a1301",marginTop:"80px", backgroundColor:""}}>
             <h4 className="" style={{marginBottom:"20px"}}><b>Для дітей</b></h4>
             <p className="text-secondary"><small>Практика показує, що ті, хто починали вивчення мови з дитячих років, мають найкращі результати серед однолітків. Саме тому наші викладачі працюють за сучасними матеріалами світових видань для досягнення найкращих результатів у вивченні іноземних мов.</small></p>
             <p><Link to="/kids" className="links" ><b>Дізнатися більше &rarr;</b></Link></p>
         </div>
 
-        <div className="skill col-md-2 col-sm-8 rounded-5 text-start bg-light bg-opacity"
+        <div className="skill col-md-3 col-sm-8 rounded-5 text-start bg-light bg-opacity"
              style={{border:"double 0px black", width:"",minWidth:"250px", padding:"20px", boxShadow: "",color:"#2a1301",marginTop:"80px", backgroundColor:""}}>
             <h4 className="" style={{marginBottom:"20px"}}><b>Для дорослих</b></h4>
             <p className="text-secondary"><small>Ви знали,що 8 з 10 людей, які починають вивчати мову, мають неправильне уявлення про свій рівень знання англійської? Ми допоможемо Вам оцінити себе і вдосконалити свої досягнення, бо саме реальне розуміння своїх сил дозволяє вірно скласти програму навчання і зробити свої заняття ефективними.
@@ -131,7 +131,7 @@ function Programs(){
             <p><Link to="/adults" className="links" ><b>Дізнатися більше &rarr;</b></Link></p>
         </div>
 
-        <div className="skill col-md-2 col-sm-8 rounded-5 text-start bg-light bg-opacity"
+        <div className="skill col-md-3 col-sm-8 rounded-5 text-start bg-light bg-opacity"
              style={{border:"double 0px black", width:"", minWidth:"250px", padding:"20px", boxShadow: "",color:"#2a1301",marginTop:"80px", backgroundColor:""}}>
             <h4 className="" style={{marginBottom:"20px"}}><b>Для бізнесу</b></h4>
             <p className="text-secondary"><small>Курси бізнес англійської - це прекрасна можливість вивчити англійську мову саме в Вашій сфері діяльності. Спілкуйтесь з іноземними колегами, замовниками або підвищуйте свій професійний рівень майстерності за допомогою іноземних джерел та ресурсів.</small></p>
@@ -157,11 +157,11 @@ function AboutUs(){
                         <h4 className="display-4 border-bottom border-dark border-3 p-3 mb-3 w-75 "><b>Про нас</b></h4>
                         <p className="card-text  p-3 container-fluid pe-md-5 fs-6 rounded-5 " style={{border:"double 0px black",boxShadow: ""}}>
                             Ми школа іноземних мов MT SCHOOL.<br/>
-                            Наш головний напрямок - Англійська мова.<br/><br/>
+                            Наш головний напрямок - Англійська та Польська мови.<br/><br/>
                             Яка наша мета?<br/>
-                            Наша основна мета - навчити Вас не тільки РОЗМОВЛЯТИ англійською, але й РОЗУМІТИ її, основні принципи побудови речень, скільки в ній часів та навіщо їх там стільки.<br/>
+                            Наша основна мета - навчити Вас не тільки РОЗМОВЛЯТИ англійською чи польською, але й РОЗУМІТИ її, основні принципи побудови речень, скільки в ній часів та навіщо їх там стільки.<br/>
                             Саме розуміння того, як працює мова, надає широкі можливості її використання на рівні носіїв.<br/><br/>
-                            Ми пропонуємо зробити Вам перший крок до розуміння англійської мови вже зараз, зареєструвавшись на безкоштовний пробний урок, а ми, в свою чергу, станемо Вашими надійними помічниками у досягненні цієї мети.
+                            Ми пропонуємо зробити Вам перший крок до розуміння англійської чи польської мови вже зараз, зареєструвавшись на безкоштовний пробний урок, а ми, в свою чергу, станемо Вашими надійними помічниками у досягненні цієї мети.
                         </p>
 
                         {/*<h5 className="display-6 mb-3"><b>Як проходять наші заняття</b></h5>*/}
@@ -172,7 +172,7 @@ function AboutUs(){
                                         <tbody>
                                         <tr>
                                             <td className="text-start fs-6 " style={{color:"#2a1301"}}><img src={process.env.PUBLIC_URL+"./images/check.png"} alt="check" style={{width:"25px",height:"25px"}} className="d-inline-block "/>  </td>
-                                            <td className="text-start fs-6  " style={{color:"#2a1301",paddingLeft:"", paddingRight:"5px"}}> Індивідуальні та групові заняття до 6 чоловік</td>
+                                            <td className="text-start fs-6  " style={{color:"#2a1301",paddingLeft:"", paddingRight:"5px"}}> Індивідуальні, парні та групові заняття до 6 чоловік</td>
                                         </tr>
                                         <tr>
                                             <td className="text-start fs-6  " style={{color:"#2a1301"}}><img src={process.env.PUBLIC_URL+"./images/check.png"} alt="check" style={{width:"25px",height:"25px"}} className="d-inline-block "/>  </td>
@@ -184,7 +184,7 @@ function AboutUs(){
                                         </tr>
                                         <tr>
                                             <td className="text-start fs-6" style={{color:"#2a1301"}}><img src={process.env.PUBLIC_URL+"./images/check.png"} alt="check" style={{width:"25px",height:"25px"}} className="d-inline-block "/> </td>
-                                            <td className="text-start fs-6 " style={{color:"#2a1301",paddingLeft:"",paddingRight:"5px"}}>Тривалість заняття: дорослі - 80 хв; діти - 60 хв.</td>
+                                            <td className="text-start fs-6 " style={{color:"#2a1301",paddingLeft:"",paddingRight:"5px"}}>Тривалість заняття: групові - 80 хв; індивідуальні та парні - 60 хв.</td>
                                         </tr>
                                         </tbody>
                                     </Table>
