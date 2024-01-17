@@ -14,7 +14,7 @@ import Carousel from "react-bootstrap/Carousel";
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-
+import ArtAndEnglishPage from "./pages/ArtAndEnglishPage";
 function Navigat(){
     return (
         <Navbar bg="light" expand="lg" className="container-fluid sticky-top bg-opacity p-2" >
@@ -37,6 +37,7 @@ function Navigat(){
                         <Nav.Link href="/prog" style={{marginRight:"20px"}}>Програми</Nav.Link>
                         {/*<Nav.Link href="/teach" style={{marginRight:"20px"}}>Викладачі</Nav.Link>*/}
                         <Nav.Link href="/event" style={{marginRight:"20px"}}>Івенти</Nav.Link>
+                             <Route path="/art-english" element={<ArtAndEnglishPage/>}/>
                         <Nav.Link href="/contact" style={{marginRight:"0"}}>Контакти</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
