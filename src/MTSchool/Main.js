@@ -14,7 +14,7 @@ import Carousel from "react-bootstrap/Carousel";
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-import ArtAndEnglishPage from "./pages/ArtAndEnglishPage";
+import ArtAndEnglishPage from "./ArtAndEnglishPage";
 function Navigat(){
     return (
         <Navbar bg="light" expand="lg" className="container-fluid sticky-top bg-opacity p-2" >
