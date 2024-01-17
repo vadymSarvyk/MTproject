@@ -1,6 +1,6 @@
 import React, { useEffect, useRef   } from 'react';
 import MenuNavbar from "../elements/MenuNavbar"
-import FeedbackForm from "../elements/FeedbackForm"
+import FeedbackForm from "./elements/FeedbackForm"
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import './ArtAndEnglishPage.css'
