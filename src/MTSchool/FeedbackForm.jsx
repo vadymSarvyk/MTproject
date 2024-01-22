@@ -29,7 +29,7 @@ function FeedbackForm() {
         formData.append('Phone', phone);
         formData.append('Message', message);
 
-        axios.post("https://script.google.com/macros/s/AKfycbx3E67yE8S0BRYMY2gG2nKyR7wGCMk0h9wBpMNcQAqTMYlE1R1toTEYdxGREEvCflZO/exec", formData)
+        axios.post("https://script.google.com/macros/s/AKfycbwrT670bDonK60UOfjVgxxZZFgpkFg6-cxYfrmWTSVMAYQbfll3esu1TGLRazrvcVjlIw/exec", formData)
         .then(response => {
           setLoading(false);
           
