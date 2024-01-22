@@ -37,6 +37,7 @@ function FeedbackForm() {
         .catch(error => {
           setLoading(false);
         });
+        setName('');setEmail('');setPhone('');setMessage('');
     }
 
     return (
