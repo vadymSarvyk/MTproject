@@ -1,0 +1,107 @@
+.header-container {
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #2a1301;
+    height: 100vh;
+}
+
+.header-content {
+    flex-grow: 1;
+    background: rgba(255, 255, 255, 0.5); 
+    border-bottom-right-radius: 50%;
+}
+
+.logo-container {
+    padding: 1rem;
+    text-align: left;
+}
+
+.logo {
+    width: 400px;
+    height: auto;
+}
+
+.info {
+    width: 80%;
+}
+
+.school-name {
+    font-weight: bold;
+    border-top: 3px solid black;
+    padding-top: 1rem;
+    margin-left: 3rem;
+}
+
+.quote-section {
+    font-size: 1.25rem;
+}
+
+.quote {
+    margin-bottom: 0.5rem;
+    text-align: end;
+}
+
+.quote-author {
+    font-size: 1rem;
+    text-align: end;
+}
+
+.join-button {
+    background-color: #2a1301;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: double 7px white;
+    border-radius: 25px;
+    display: block;
+    width: 340px;
+    margin: 3rem;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.social-section {
+    width: 40%;
+    text-align: end;
+    display: none;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    margin-top: 1rem;
+}
+
+.social-icon {
+    border: 5px solid black;
+    border-radius: 40%;
+    padding: 3px;
+    margin-right: 20px;
+    display: inline-block;
+    color: black;
+}
+
+.social-icon svg {
+    width: 60px;
+    height: 60px;
+}
+
+.social-icon img {
+    width: 60px;
+    height: 60px;
+}
+
+.contact-info {
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.25rem;
+    margin-top: 1rem;
+}
+
+@media (min-width: 768px) {
+    .social-section {
+        display: block;
+    }
+}

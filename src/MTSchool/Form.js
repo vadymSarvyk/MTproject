@@ -33,7 +33,7 @@ export function MTForm(){
     return(
         <div className="row  align-items-center p-5  bg-opacity-75 " style={{color:"#2a1301",backgroundColor:"rgba(246,238,232,0.63)",backgroundImage:"url(./images/BG_grey3.png)", backgroundRepeat:"repeat", backgroundSize:"35%",}}>
             <div className="col-sm-8 col-md-5 bg-light mx-auto mt-5 rounded-5 " style={{border:"double 0px black", padding:"30px", boxShadow: "10px 6px 33px 0px rgba(117,115,117,1)"}}>
-                <h2 className="card-title mb-5 text-center">Напишіть нам і ми Вам зателефонуємо!</h2>
+                <h2 className="card-title mb-5 text-center">Напишіть нам і ми Вам зателефонуємо333!</h2>
                 <form onSubmit={handleSubmit(onSubmit)} className="form-group text-center">
                     <div style={{margin:"5px", color:"red"}}>
                         {errors?.name&&<p>{errors?.name?.message||"Error"}</p>}
