@@ -22,7 +22,7 @@ function Events(){
                                         Найактивніші діти отримали подарунки - наші розмальовки із популярними сюжетами із Roblox, Minecraft за Венздей.</p>
                                         </div>
                                 </Card.Text>
-                                <Button href="/form" variant="" className=" btn btn-outline-dark btn text-white rounded-5 fw-bold mt-md-1" style={{border:"",paddingLeft: "40px", paddingRight: "40px", marginLeft: "", marginRight:"",backgroundColor:"#2a1301"}}>ДОЛУЧИТИСЯ</Button>
+                                <Button href="/contact" variant="" className=" btn btn-outline-dark btn text-white rounded-5 fw-bold mt-md-1" style={{border:"",paddingLeft: "40px", paddingRight: "40px", marginLeft: "", marginRight:"",backgroundColor:"#2a1301"}}>ДОЛУЧИТИСЯ</Button>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -38,7 +38,7 @@ function Events(){
                                     <p style={{}}>Ми постійно проводимо пробні уроки для дорослих в форматі офлайн, в наших аудиторіях, та онлайн. На таких уроках ми показуємо наші методи викладання, матеріали, даємо можливість ненадовго зануритись у цікавий процес опанування іноземної мови.</p>
                                 </div>
                             </Card.Text>
-                            <Button href="/form" variant="" className=" btn btn-outline-dark btn text-white rounded-5 fw-bold mt-md-1" style={{border:"",paddingLeft: "40px", paddingRight: "40px", marginLeft: "", marginRight:"",backgroundColor:"#2a1301"}}>ДОЛУЧИТИСЯ</Button>
+                            <Button href="/contact" variant="" className=" btn btn-outline-dark btn text-white rounded-5 fw-bold mt-md-1" style={{border:"",paddingLeft: "40px", paddingRight: "40px", marginLeft: "", marginRight:"",backgroundColor:"#2a1301"}}>ДОЛУЧИТИСЯ</Button>
                         </Card.Body>
                     </Card>
             </Col>
@@ -55,7 +55,7 @@ function Events(){
   Розповіли про помилки початківців та лайфхаки, які допоможуть простіше та ефективніше вивчати англійську мову. Розібрали корисні розмовні фрази, які допоможуть у будь-якій ситуації.</p>
                                 </div>
                             </Card.Text>
-                            <Button href="/form" variant="" className=" btn btn-outline-dark btn text-white rounded-5 fw-bold mt-md-1" style={{border:"",paddingLeft: "40px", paddingRight: "40px", marginLeft: "", marginRight:"",backgroundColor:"#2a1301"}}>ДОЛУЧИТИСЯ</Button>
+                            <Button href="/contact" variant="" className=" btn btn-outline-dark btn text-white rounded-5 fw-bold mt-md-1" style={{border:"",paddingLeft: "40px", paddingRight: "40px", marginLeft: "", marginRight:"",backgroundColor:"#2a1301"}}>ДОЛУЧИТИСЯ</Button>
                         </Card.Body>
                     </Card>
                 </Col>
