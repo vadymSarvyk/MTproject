@@ -28,7 +28,7 @@ function Events(){
                     </Col>
                 <Col>
                     <Card className=" rounded-5 w-sm-auto mx-sm-auto border-0" style={{ height: '100%' }}>
-                        <Card.Img className="img-fluid rounded-5" variant="top" src={process.env.PUBLIC_URL+"./images/mt.jpg"} />
+                        <Card.Img className="img-fluid rounded-5" variant="top" src={process.env.PUBLIC_URL+"./images/kg36_spongebob_site.png"} />
                         <Card.Body>
                             <Card.Title>Пробний урок для дорослих</Card.Title>
                             <Card.Text>
