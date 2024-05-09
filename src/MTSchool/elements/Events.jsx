@@ -44,7 +44,7 @@ function Events(){
             </Col>
                 <Col>
                     <Card className=" rounded-5 w-sm-auto mx-sm-auto border-0" style={{ height: '100%' }}>
-                        <Card.Img className="img-fluid rounded-5" variant="top" src={process.env.PUBLIC_URL+"./images/childr1.jpg"} />
+                        <Card.Img className="img-fluid rounded-5" variant="top" src={process.env.PUBLIC_URL+"./images/kindergaden_site.jpg"} />
                         <Card.Body>
                             <Card.Title>Презентація школи MT SCHOOL</Card.Title>
                             <Card.Text>
